@@ -11,16 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58a1ce97-b90a-435a-abf9-5ef328e0355f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/threads/priority-donate-multiple.c" beforeDir="false" afterPath="$PROJECT_DIR$/tests/threads/priority-donate-multiple.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads/interrupt.c" beforeDir="false" afterPath="$PROJECT_DIR$/threads/interrupt.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads/interrupt.h" beforeDir="false" afterPath="$PROJECT_DIR$/threads/interrupt.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads/synch.c" beforeDir="false" afterPath="$PROJECT_DIR$/threads/synch.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads/synch.h" beforeDir="false" afterPath="$PROJECT_DIR$/threads/synch.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads/thread.c" beforeDir="false" afterPath="$PROJECT_DIR$/threads/thread.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads/thread.h" beforeDir="false" afterPath="$PROJECT_DIR$/threads/thread.h" afterDir="false" />
-    </list>
+    <list default="true" id="58a1ce97-b90a-435a-abf9-5ef328e0355f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +23,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="synch.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="synch.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threads/synch.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -78,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thread.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="thread.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/threads/thread.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="181" column="51" selection-start-line="181" selection-start-column="51" selection-end-line="181" selection-end-column="51" />
+            <state relative-caret-position="273">
+              <caret line="170" selection-start-line="170" selection-end-line="178" selection-end-column="7" />
               <folding>
                 <element signature="e#5180#5232#0" expanded="true" />
                 <element signature="e#10369#10385#0" expanded="true" />
@@ -160,8 +151,8 @@
       <find>lock_rel</find>
       <find>lock</find>
       <find>lock_acquire</find>
-      <find>lock_release</find>
       <find>thread_tick</find>
+      <find>lock_release</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -315,7 +306,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111609000" />
+    <option name="totallyTimeSpent" value="111787000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,6 +319,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1919" y="22" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3283582" />
       <window_info anchor="bottom" id="Messages" weight="0.32916668" />
@@ -674,18 +666,6 @@
         <state relative-caret-position="-320" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threads/thread.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="181" column="51" selection-start-line="181" selection-start-column="51" selection-end-line="181" selection-end-column="51" />
-          <folding>
-            <element signature="e#5180#5232#0" expanded="true" />
-            <element signature="e#10369#10385#0" expanded="true" />
-            <element signature="e#20024#20086#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/threads/priority-change.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -699,6 +679,18 @@
           <caret line="287" column="13" lean-forward="true" selection-start-line="287" selection-start-column="13" selection-end-line="287" selection-end-column="13" />
           <folding>
             <element signature="e#1851#2209#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/thread.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="170" selection-start-line="170" selection-end-line="178" selection-end-column="7" />
+          <folding>
+            <element signature="e#5180#5232#0" expanded="true" />
+            <element signature="e#10369#10385#0" expanded="true" />
+            <element signature="e#20024#20086#0" expanded="true" />
           </folding>
         </state>
       </provider>
