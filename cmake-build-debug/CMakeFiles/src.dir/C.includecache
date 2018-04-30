@@ -1,0 +1,988 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/borischen/Nustore Files/pintos/src/devices/block.c
+devices/block.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/block.h
+list.h
+-
+string.h
+-
+stdio.h
+-
+devices/ide.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/ide.h
+threads/malloc.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/malloc.h
+
+/Users/borischen/Nustore Files/pintos/src/devices/ide.c
+devices/ide.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/ide.h
+ctype.h
+-
+debug.h
+-
+stdbool.h
+-
+stdio.h
+-
+devices/block.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/block.h
+devices/partition.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/partition.h
+devices/timer.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/timer.h
+threads/io.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/io.h
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/interrupt.h
+threads/synch.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/synch.h
+
+/Users/borischen/Nustore Files/pintos/src/devices/input.c
+devices/input.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/input.h
+debug.h
+-
+devices/intq.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/intq.h
+devices/serial.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/serial.h
+
+/Users/borischen/Nustore Files/pintos/src/devices/intq.c
+devices/intq.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/intq.h
+debug.h
+-
+threads/thread.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/thread.h
+
+/Users/borischen/Nustore Files/pintos/src/devices/kbd.c
+devices/kbd.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/kbd.h
+ctype.h
+-
+debug.h
+-
+stdio.h
+-
+string.h
+-
+devices/input.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/input.h
+devices/shutdown.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/shutdown.h
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/interrupt.h
+threads/io.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/io.h
+
+/Users/borischen/Nustore Files/pintos/src/devices/partition.c
+devices/partition.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/partition.h
+packed.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+devices/block.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/block.h
+threads/malloc.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/malloc.h
+
+/Users/borischen/Nustore Files/pintos/src/devices/pit.c
+devices/pit.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/pit.h
+debug.h
+-
+stdint.h
+-
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/interrupt.h
+threads/io.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/io.h
+
+/Users/borischen/Nustore Files/pintos/src/devices/rtc.c
+devices/rtc.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/rtc.h
+stdio.h
+-
+threads/io.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/io.h
+
+/Users/borischen/Nustore Files/pintos/src/devices/serial.c
+devices/serial.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/serial.h
+debug.h
+-
+devices/input.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/input.h
+devices/intq.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/intq.h
+devices/timer.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/timer.h
+threads/io.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/io.h
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/interrupt.h
+threads/synch.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/synch.h
+threads/thread.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/thread.h
+
+/Users/borischen/Nustore Files/pintos/src/devices/shutdown.c
+devices/shutdown.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/shutdown.h
+console.h
+-
+stdio.h
+-
+devices/kbd.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/kbd.h
+devices/serial.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/serial.h
+devices/timer.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/timer.h
+threads/io.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/io.h
+threads/thread.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/thread.h
+userprog/exception.h
+/Users/borischen/Nustore Files/pintos/src/devices/userprog/exception.h
+devices/block.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/block.h
+filesys/filesys.h
+/Users/borischen/Nustore Files/pintos/src/devices/filesys/filesys.h
+
+/Users/borischen/Nustore Files/pintos/src/devices/speaker.c
+devices/speaker.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/speaker.h
+devices/pit.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/pit.h
+threads/io.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/io.h
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/interrupt.h
+devices/timer.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/timer.h
+
+/Users/borischen/Nustore Files/pintos/src/devices/timer.c
+devices/timer.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/timer.h
+debug.h
+-
+inttypes.h
+-
+round.h
+-
+stdio.h
+-
+devices/pit.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/pit.h
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/interrupt.h
+threads/synch.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/synch.h
+threads/thread.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/thread.h
+../threads/thread.h
+/Users/borischen/Nustore Files/pintos/src/threads/thread.h
+
+/Users/borischen/Nustore Files/pintos/src/devices/vga.c
+devices/vga.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/vga.h
+round.h
+-
+stdint.h
+-
+stddef.h
+-
+string.h
+-
+devices/speaker.h
+/Users/borischen/Nustore Files/pintos/src/devices/devices/speaker.h
+threads/io.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/io.h
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/interrupt.h
+threads/vaddr.h
+/Users/borischen/Nustore Files/pintos/src/devices/threads/vaddr.h
+
+/Users/borischen/Nustore Files/pintos/src/examples/bubsort.c
+stdio.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/cat.c
+stdio.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/cmp.c
+stdio.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/cp.c
+stdio.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/echo.c
+stdio.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/halt.c
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/hex-dump.c
+stdio.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/insult.c
+ctype.h
+-
+debug.h
+-
+random.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/lineup.c
+ctype.h
+-
+stdio.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/ls.c
+syscall.h
+-
+stdio.h
+-
+string.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/matmult.c
+stdio.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/mcat.c
+stdio.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/mcp.c
+stdio.h
+-
+string.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/mkdir.c
+stdio.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/pwd.c
+syscall.h
+-
+stdbool.h
+-
+stdio.h
+-
+string.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/recursor.c
+stdio.h
+-
+stdlib.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/rm.c
+stdio.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/examples/shell.c
+stdbool.h
+-
+stdio.h
+-
+string.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/filesys/directory.c
+filesys/directory.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/directory.h
+stdio.h
+-
+string.h
+-
+list.h
+-
+filesys/filesys.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/filesys.h
+filesys/inode.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/inode.h
+threads/malloc.h
+/Users/borischen/Nustore Files/pintos/src/filesys/threads/malloc.h
+
+/Users/borischen/Nustore Files/pintos/src/filesys/file.c
+filesys/file.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/file.h
+debug.h
+-
+filesys/inode.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/inode.h
+threads/malloc.h
+/Users/borischen/Nustore Files/pintos/src/filesys/threads/malloc.h
+
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys.c
+filesys/filesys.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/filesys.h
+debug.h
+-
+stdio.h
+-
+string.h
+-
+filesys/file.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/file.h
+filesys/free-map.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/free-map.h
+filesys/inode.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/inode.h
+filesys/directory.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/directory.h
+
+/Users/borischen/Nustore Files/pintos/src/filesys/free-map.c
+filesys/free-map.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/free-map.h
+bitmap.h
+-
+debug.h
+-
+filesys/file.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/file.h
+filesys/filesys.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/filesys.h
+filesys/inode.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/inode.h
+
+/Users/borischen/Nustore Files/pintos/src/filesys/fsutil.c
+filesys/fsutil.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/fsutil.h
+debug.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ustar.h
+-
+filesys/directory.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/directory.h
+filesys/file.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/file.h
+filesys/filesys.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/filesys.h
+threads/malloc.h
+/Users/borischen/Nustore Files/pintos/src/filesys/threads/malloc.h
+threads/palloc.h
+/Users/borischen/Nustore Files/pintos/src/filesys/threads/palloc.h
+threads/vaddr.h
+/Users/borischen/Nustore Files/pintos/src/filesys/threads/vaddr.h
+
+/Users/borischen/Nustore Files/pintos/src/filesys/inode.c
+filesys/inode.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/inode.h
+list.h
+-
+debug.h
+-
+round.h
+-
+string.h
+-
+filesys/filesys.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/filesys.h
+filesys/free-map.h
+/Users/borischen/Nustore Files/pintos/src/filesys/filesys/free-map.h
+threads/malloc.h
+/Users/borischen/Nustore Files/pintos/src/filesys/threads/malloc.h
+
+/Users/borischen/Nustore Files/pintos/src/lib/arithmetic.c
+stdint.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/lib/debug.c
+debug.h
+-
+stdarg.h
+-
+stdbool.h
+-
+stddef.h
+-
+stdio.h
+-
+string.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/lib/debug.h
+
+/Users/borischen/Nustore Files/pintos/src/lib/kernel/list.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/lib/random.c
+random.h
+/Users/borischen/Nustore Files/pintos/src/lib/random.h
+stdbool.h
+-
+stdint.h
+-
+debug.h
+/Users/borischen/Nustore Files/pintos/src/lib/debug.h
+
+/Users/borischen/Nustore Files/pintos/src/lib/random.h
+stddef.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/lib/stdio.c
+stdio.h
+-
+ctype.h
+-
+inttypes.h
+-
+round.h
+-
+stdint.h
+-
+string.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/lib/stdlib.c
+ctype.h
+-
+debug.h
+-
+random.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/lib/string.c
+string.h
+-
+debug.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/lib/ustar.c
+ustar.h
+-
+limits.h
+-
+packed.h
+-
+stdio.h
+-
+string.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/tests/arc4.c
+stdint.h
+-
+tests/arc4.h
+/Users/borischen/Nustore Files/pintos/src/tests/tests/arc4.h
+
+/Users/borischen/Nustore Files/pintos/src/tests/cksum.c
+stdint.h
+-
+tests/cksum.h
+/Users/borischen/Nustore Files/pintos/src/tests/tests/cksum.h
+stdio.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/tests/lib.c
+tests/lib.h
+/Users/borischen/Nustore Files/pintos/src/tests/tests/lib.h
+random.h
+-
+stdarg.h
+-
+stdio.h
+-
+string.h
+-
+syscall.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/tests/main.c
+random.h
+-
+tests/lib.h
+/Users/borischen/Nustore Files/pintos/src/tests/tests/lib.h
+tests/main.h
+/Users/borischen/Nustore Files/pintos/src/tests/tests/main.h
+
+/Users/borischen/Nustore Files/pintos/src/threads/init.c
+threads/init.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/init.h
+console.h
+-
+debug.h
+-
+inttypes.h
+-
+limits.h
+-
+random.h
+-
+stddef.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+devices/kbd.h
+/Users/borischen/Nustore Files/pintos/src/threads/devices/kbd.h
+devices/input.h
+/Users/borischen/Nustore Files/pintos/src/threads/devices/input.h
+devices/serial.h
+/Users/borischen/Nustore Files/pintos/src/threads/devices/serial.h
+devices/shutdown.h
+/Users/borischen/Nustore Files/pintos/src/threads/devices/shutdown.h
+devices/timer.h
+/Users/borischen/Nustore Files/pintos/src/threads/devices/timer.h
+devices/vga.h
+/Users/borischen/Nustore Files/pintos/src/threads/devices/vga.h
+devices/rtc.h
+/Users/borischen/Nustore Files/pintos/src/threads/devices/rtc.h
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/interrupt.h
+threads/io.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/io.h
+threads/loader.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/loader.h
+threads/malloc.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/malloc.h
+threads/palloc.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/palloc.h
+threads/pte.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/pte.h
+threads/thread.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/thread.h
+userprog/process.h
+/Users/borischen/Nustore Files/pintos/src/threads/userprog/process.h
+userprog/exception.h
+/Users/borischen/Nustore Files/pintos/src/threads/userprog/exception.h
+userprog/gdt.h
+/Users/borischen/Nustore Files/pintos/src/threads/userprog/gdt.h
+userprog/syscall.h
+/Users/borischen/Nustore Files/pintos/src/threads/userprog/syscall.h
+userprog/tss.h
+/Users/borischen/Nustore Files/pintos/src/threads/userprog/tss.h
+tests/threads/tests.h
+/Users/borischen/Nustore Files/pintos/src/threads/tests/threads/tests.h
+devices/block.h
+/Users/borischen/Nustore Files/pintos/src/threads/devices/block.h
+devices/ide.h
+/Users/borischen/Nustore Files/pintos/src/threads/devices/ide.h
+filesys/filesys.h
+/Users/borischen/Nustore Files/pintos/src/threads/filesys/filesys.h
+filesys/fsutil.h
+/Users/borischen/Nustore Files/pintos/src/threads/filesys/fsutil.h
+
+/Users/borischen/Nustore Files/pintos/src/threads/interrupt.c
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/interrupt.h
+debug.h
+-
+inttypes.h
+-
+stdint.h
+-
+stdio.h
+-
+threads/flags.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/flags.h
+threads/intr-stubs.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/intr-stubs.h
+threads/io.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/io.h
+threads/thread.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/thread.h
+threads/vaddr.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/vaddr.h
+devices/timer.h
+/Users/borischen/Nustore Files/pintos/src/threads/devices/timer.h
+
+/Users/borischen/Nustore Files/pintos/src/threads/interrupt.h
+stdbool.h
+-
+stdint.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/threads/malloc.c
+threads/malloc.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/malloc.h
+debug.h
+-
+list.h
+-
+round.h
+-
+stdint.h
+-
+stdio.h
+-
+string.h
+-
+threads/palloc.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/palloc.h
+threads/synch.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/synch.h
+threads/vaddr.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/vaddr.h
+
+/Users/borischen/Nustore Files/pintos/src/threads/palloc.c
+threads/palloc.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/palloc.h
+bitmap.h
+-
+debug.h
+-
+inttypes.h
+-
+round.h
+-
+stddef.h
+-
+stdint.h
+-
+stdio.h
+-
+string.h
+-
+threads/loader.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/loader.h
+threads/synch.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/synch.h
+threads/vaddr.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/vaddr.h
+
+/Users/borischen/Nustore Files/pintos/src/threads/synch.c
+threads/synch.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/synch.h
+stdio.h
+-
+string.h
+-
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/interrupt.h
+threads/thread.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/thread.h
+
+/Users/borischen/Nustore Files/pintos/src/threads/synch.h
+list.h
+-
+stdbool.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/threads/thread.c
+threads/thread.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/thread.h
+debug.h
+-
+stddef.h
+-
+random.h
+-
+stdio.h
+-
+string.h
+-
+threads/flags.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/flags.h
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/interrupt.h
+threads/intr-stubs.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/intr-stubs.h
+threads/palloc.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/palloc.h
+threads/switch.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/switch.h
+threads/synch.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/synch.h
+threads/vaddr.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/vaddr.h
+threads/vaddr.h
+/Users/borischen/Nustore Files/pintos/src/threads/threads/vaddr.h
+synch.h
+/Users/borischen/Nustore Files/pintos/src/threads/synch.h
+interrupt.h
+/Users/borischen/Nustore Files/pintos/src/threads/interrupt.h
+thread.h
+/Users/borischen/Nustore Files/pintos/src/threads/thread.h
+../lib/kernel/list.h
+/Users/borischen/Nustore Files/pintos/src/lib/kernel/list.h
+userprog/process.h
+/Users/borischen/Nustore Files/pintos/src/threads/userprog/process.h
+
+/Users/borischen/Nustore Files/pintos/src/threads/thread.h
+debug.h
+-
+list.h
+-
+stdint.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/userprog/exception.c
+userprog/exception.h
+/Users/borischen/Nustore Files/pintos/src/userprog/userprog/exception.h
+inttypes.h
+-
+stdio.h
+-
+userprog/gdt.h
+/Users/borischen/Nustore Files/pintos/src/userprog/userprog/gdt.h
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/interrupt.h
+threads/thread.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/thread.h
+
+/Users/borischen/Nustore Files/pintos/src/userprog/gdt.c
+userprog/gdt.h
+/Users/borischen/Nustore Files/pintos/src/userprog/userprog/gdt.h
+debug.h
+-
+userprog/tss.h
+/Users/borischen/Nustore Files/pintos/src/userprog/userprog/tss.h
+threads/palloc.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/palloc.h
+threads/vaddr.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/vaddr.h
+
+/Users/borischen/Nustore Files/pintos/src/userprog/pagedir.c
+userprog/pagedir.h
+/Users/borischen/Nustore Files/pintos/src/userprog/userprog/pagedir.h
+stdbool.h
+-
+stddef.h
+-
+string.h
+-
+threads/init.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/init.h
+threads/pte.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/pte.h
+threads/palloc.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/palloc.h
+
+/Users/borischen/Nustore Files/pintos/src/userprog/process.c
+userprog/process.h
+/Users/borischen/Nustore Files/pintos/src/userprog/userprog/process.h
+debug.h
+-
+inttypes.h
+-
+round.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+userprog/gdt.h
+/Users/borischen/Nustore Files/pintos/src/userprog/userprog/gdt.h
+userprog/pagedir.h
+/Users/borischen/Nustore Files/pintos/src/userprog/userprog/pagedir.h
+userprog/tss.h
+/Users/borischen/Nustore Files/pintos/src/userprog/userprog/tss.h
+filesys/directory.h
+/Users/borischen/Nustore Files/pintos/src/userprog/filesys/directory.h
+filesys/file.h
+/Users/borischen/Nustore Files/pintos/src/userprog/filesys/file.h
+filesys/filesys.h
+/Users/borischen/Nustore Files/pintos/src/userprog/filesys/filesys.h
+threads/flags.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/flags.h
+threads/init.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/init.h
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/interrupt.h
+threads/palloc.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/palloc.h
+threads/thread.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/thread.h
+threads/vaddr.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/vaddr.h
+
+/Users/borischen/Nustore Files/pintos/src/userprog/syscall.c
+userprog/syscall.h
+/Users/borischen/Nustore Files/pintos/src/userprog/userprog/syscall.h
+stdio.h
+-
+syscall-nr.h
+-
+threads/interrupt.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/interrupt.h
+threads/thread.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/thread.h
+
+/Users/borischen/Nustore Files/pintos/src/userprog/tss.c
+userprog/tss.h
+/Users/borischen/Nustore Files/pintos/src/userprog/userprog/tss.h
+debug.h
+-
+stddef.h
+-
+userprog/gdt.h
+/Users/borischen/Nustore Files/pintos/src/userprog/userprog/gdt.h
+threads/thread.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/thread.h
+threads/palloc.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/palloc.h
+threads/vaddr.h
+/Users/borischen/Nustore Files/pintos/src/userprog/threads/vaddr.h
+
+/Users/borischen/Nustore Files/pintos/src/utils/setitimer-helper.c
+errno.h
+-
+limits.h
+-
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/time.h
+-
+unistd.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/utils/squish-pty.c
+errno.h
+-
+fcntl.h
+-
+signal.h
+-
+stdarg.h
+-
+stdbool.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stropts.h
+-
+sys/ioctl.h
+-
+sys/stat.h
+-
+sys/time.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+termios.h
+-
+unistd.h
+-
+
+/Users/borischen/Nustore Files/pintos/src/utils/squish-unix.c
+errno.h
+-
+fcntl.h
+-
+signal.h
+-
+stdarg.h
+-
+stdbool.h
+-
+stddef.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stropts.h
+-
+sys/ioctl.h
+-
+sys/stat.h
+-
+sys/time.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+sys/socket.h
+-
+sys/un.h
+-
+termios.h
+-
+unistd.h
+-
+

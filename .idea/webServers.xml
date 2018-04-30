@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="38cd9f3d-3d86-44da-942d-c3b2f2ed8429" name="pro1" url="http://10.20.54.198">
+        <fileTransfer host="10.20.54.198" port="22" rootFolder="/home/cs302/pintos/src" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

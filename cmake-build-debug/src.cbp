@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="src"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src">
+				<Option output="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/src" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src/fast">
+				<Option output="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/src" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/borischen/Nustore\ Files/pintos/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/block.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/block.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/ide.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/ide.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/input.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/input.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/intq.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/intq.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/kbd.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/kbd.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/partition.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/partition.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/pit.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/pit.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/rtc.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/rtc.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/serial.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/serial.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/shutdown.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/shutdown.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/speaker.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/speaker.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/timer.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/timer.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/vga.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/devices/vga.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/bubsort.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/cat.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/cmp.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/cp.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/echo.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/halt.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/hex-dump.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/insult.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/lineup.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/ls.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/matmult.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/mcat.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/mcp.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/mkdir.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/pwd.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/recursor.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/rm.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/examples/shell.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/filesys/directory.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/filesys/directory.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/filesys/file.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/filesys/file.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/filesys/filesys.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/filesys/filesys.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/filesys/free-map.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/filesys/free-map.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/filesys/fsutil.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/filesys/fsutil.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/filesys/inode.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/filesys/inode.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/filesys/off_t.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/arithmetic.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/ctype.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/debug.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/debug.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/inttypes.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/limits.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/packed.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/random.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/random.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/round.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/stdarg.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/stdbool.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/stddef.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/stdint.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/stdio.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/stdio.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/stdlib.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/stdlib.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/string.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/string.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/syscall-nr.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/ustar.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/lib/ustar.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/tests/arc4.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/tests/arc4.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/tests/cksum.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/tests/cksum.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/tests/lib.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/tests/lib.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/tests/main.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/tests/main.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/flags.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/init.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/init.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/interrupt.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/interrupt.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/intr-stubs.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/io.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/loader.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/malloc.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/malloc.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/palloc.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/palloc.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/pte.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/switch.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/synch.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/synch.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/thread.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/thread.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/threads/vaddr.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/userprog/exception.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/userprog/exception.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/userprog/gdt.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/userprog/gdt.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/userprog/pagedir.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/userprog/pagedir.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/userprog/process.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/userprog/process.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/userprog/syscall.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/userprog/syscall.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/userprog/tss.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/userprog/tss.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/utils/setitimer-helper.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/utils/squish-pty.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/utils/squish-unix.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/borischen/Nustore Files/pintos/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
