@@ -38,10 +38,6 @@ inline struct thread* first_of_ready_list(){
     return cur;
 };
 
-inline struct thread* elem_to_thread(struct list_elem* element){
-    return list_entry(element, struct thread, elem);
-}
-
 /* List of processes in sleep. */
 static struct list sleep_list;
 
@@ -181,7 +177,7 @@ thread_tick(void) {
 //    }
 
     /* Enforce preemption. */
-    if (++thread_ticks >= t->origin_priority % 7 + 20) {
+    if (++thread_ticks >= t->origin_priority % 7 + 2) {
 //        printf("HRER");
         if (strcmp(t->name, "main")!=0)
             t->priority = max(t->priority - 3, 0);
@@ -688,20 +684,7 @@ check_preempt(void){
     struct thread * cur = thread_current();
     struct thread * rdy_fst = first_of_ready_list();
     if(cur->priority < rdy_fst->priority){ //preempty
-
+        
         thread_yield();
     }
-}
-
-
-// [Boris] the following code is used for debugging
-static void
-show_ready_list(){
-   enum intr_level before = intr_disable();
-   struct list_elem* cur = list_begin(&ready_list);
-   while(cur != list_end(&ready_list)){
-       struct thread* tmp = elem_to_thread(cur);
-       printf("(%s, %d) ->", tmp->name, tmp->priority);
-   }
-   intr_set_level(before);
 }

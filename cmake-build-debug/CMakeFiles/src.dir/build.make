@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake"
+CMAKE_COMMAND = "/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
+RM = "/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/borischen/Nustore Files/pintos/src"
+CMAKE_SOURCE_DIR = "/Users/Boris/Nustore Files/pintos/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/src.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/src.dir/flags.make
 
 CMakeFiles/src.dir/lib/arithmetic.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/lib/arithmetic.c.o: ../lib/arithmetic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/src.dir/lib/arithmetic.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/arithmetic.c.o   -c "/Users/borischen/Nustore Files/pintos/src/lib/arithmetic.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/src.dir/lib/arithmetic.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/arithmetic.c.o   -c "/Users/Boris/Nustore Files/pintos/src/lib/arithmetic.c"
 
 CMakeFiles/src.dir/lib/arithmetic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/lib/arithmetic.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/lib/arithmetic.c" > CMakeFiles/src.dir/lib/arithmetic.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/lib/arithmetic.c" > CMakeFiles/src.dir/lib/arithmetic.c.i
 
 CMakeFiles/src.dir/lib/arithmetic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/lib/arithmetic.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/lib/arithmetic.c" -o CMakeFiles/src.dir/lib/arithmetic.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/lib/arithmetic.c" -o CMakeFiles/src.dir/lib/arithmetic.c.s
 
 CMakeFiles/src.dir/lib/arithmetic.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/src.dir/lib/arithmetic.c.o.provides.build: CMakeFiles/src.dir/lib/ari
 
 CMakeFiles/src.dir/lib/debug.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/lib/debug.c.o: ../lib/debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/src.dir/lib/debug.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/debug.c.o   -c "/Users/borischen/Nustore Files/pintos/src/lib/debug.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/src.dir/lib/debug.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/debug.c.o   -c "/Users/Boris/Nustore Files/pintos/src/lib/debug.c"
 
 CMakeFiles/src.dir/lib/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/lib/debug.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/lib/debug.c" > CMakeFiles/src.dir/lib/debug.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/lib/debug.c" > CMakeFiles/src.dir/lib/debug.c.i
 
 CMakeFiles/src.dir/lib/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/lib/debug.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/lib/debug.c" -o CMakeFiles/src.dir/lib/debug.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/lib/debug.c" -o CMakeFiles/src.dir/lib/debug.c.s
 
 CMakeFiles/src.dir/lib/debug.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/src.dir/lib/debug.c.o.provides.build: CMakeFiles/src.dir/lib/debug.c.
 
 CMakeFiles/src.dir/lib/random.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/lib/random.c.o: ../lib/random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/src.dir/lib/random.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/random.c.o   -c "/Users/borischen/Nustore Files/pintos/src/lib/random.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/src.dir/lib/random.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/random.c.o   -c "/Users/Boris/Nustore Files/pintos/src/lib/random.c"
 
 CMakeFiles/src.dir/lib/random.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/lib/random.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/lib/random.c" > CMakeFiles/src.dir/lib/random.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/lib/random.c" > CMakeFiles/src.dir/lib/random.c.i
 
 CMakeFiles/src.dir/lib/random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/lib/random.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/lib/random.c" -o CMakeFiles/src.dir/lib/random.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/lib/random.c" -o CMakeFiles/src.dir/lib/random.c.s
 
 CMakeFiles/src.dir/lib/random.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/src.dir/lib/random.c.o.provides.build: CMakeFiles/src.dir/lib/random.
 
 CMakeFiles/src.dir/lib/stdio.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/lib/stdio.c.o: ../lib/stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/src.dir/lib/stdio.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/stdio.c.o   -c "/Users/borischen/Nustore Files/pintos/src/lib/stdio.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/src.dir/lib/stdio.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/stdio.c.o   -c "/Users/Boris/Nustore Files/pintos/src/lib/stdio.c"
 
 CMakeFiles/src.dir/lib/stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/lib/stdio.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/lib/stdio.c" > CMakeFiles/src.dir/lib/stdio.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/lib/stdio.c" > CMakeFiles/src.dir/lib/stdio.c.i
 
 CMakeFiles/src.dir/lib/stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/lib/stdio.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/lib/stdio.c" -o CMakeFiles/src.dir/lib/stdio.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/lib/stdio.c" -o CMakeFiles/src.dir/lib/stdio.c.s
 
 CMakeFiles/src.dir/lib/stdio.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/src.dir/lib/stdio.c.o.provides.build: CMakeFiles/src.dir/lib/stdio.c.
 
 CMakeFiles/src.dir/lib/stdlib.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/lib/stdlib.c.o: ../lib/stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/src.dir/lib/stdlib.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/stdlib.c.o   -c "/Users/borischen/Nustore Files/pintos/src/lib/stdlib.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/src.dir/lib/stdlib.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/stdlib.c.o   -c "/Users/Boris/Nustore Files/pintos/src/lib/stdlib.c"
 
 CMakeFiles/src.dir/lib/stdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/lib/stdlib.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/lib/stdlib.c" > CMakeFiles/src.dir/lib/stdlib.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/lib/stdlib.c" > CMakeFiles/src.dir/lib/stdlib.c.i
 
 CMakeFiles/src.dir/lib/stdlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/lib/stdlib.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/lib/stdlib.c" -o CMakeFiles/src.dir/lib/stdlib.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/lib/stdlib.c" -o CMakeFiles/src.dir/lib/stdlib.c.s
 
 CMakeFiles/src.dir/lib/stdlib.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/src.dir/lib/stdlib.c.o.provides.build: CMakeFiles/src.dir/lib/stdlib.
 
 CMakeFiles/src.dir/lib/string.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/lib/string.c.o: ../lib/string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/src.dir/lib/string.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/string.c.o   -c "/Users/borischen/Nustore Files/pintos/src/lib/string.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/src.dir/lib/string.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/string.c.o   -c "/Users/Boris/Nustore Files/pintos/src/lib/string.c"
 
 CMakeFiles/src.dir/lib/string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/lib/string.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/lib/string.c" > CMakeFiles/src.dir/lib/string.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/lib/string.c" > CMakeFiles/src.dir/lib/string.c.i
 
 CMakeFiles/src.dir/lib/string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/lib/string.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/lib/string.c" -o CMakeFiles/src.dir/lib/string.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/lib/string.c" -o CMakeFiles/src.dir/lib/string.c.s
 
 CMakeFiles/src.dir/lib/string.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/src.dir/lib/string.c.o.provides.build: CMakeFiles/src.dir/lib/string.
 
 CMakeFiles/src.dir/lib/ustar.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/lib/ustar.c.o: ../lib/ustar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/src.dir/lib/ustar.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/ustar.c.o   -c "/Users/borischen/Nustore Files/pintos/src/lib/ustar.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/src.dir/lib/ustar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/lib/ustar.c.o   -c "/Users/Boris/Nustore Files/pintos/src/lib/ustar.c"
 
 CMakeFiles/src.dir/lib/ustar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/lib/ustar.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/lib/ustar.c" > CMakeFiles/src.dir/lib/ustar.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/lib/ustar.c" > CMakeFiles/src.dir/lib/ustar.c.i
 
 CMakeFiles/src.dir/lib/ustar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/lib/ustar.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/lib/ustar.c" -o CMakeFiles/src.dir/lib/ustar.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/lib/ustar.c" -o CMakeFiles/src.dir/lib/ustar.c.s
 
 CMakeFiles/src.dir/lib/ustar.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/src.dir/lib/ustar.c.o.provides.build: CMakeFiles/src.dir/lib/ustar.c.
 
 CMakeFiles/src.dir/filesys/directory.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/filesys/directory.c.o: ../filesys/directory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/src.dir/filesys/directory.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/filesys/directory.c.o   -c "/Users/borischen/Nustore Files/pintos/src/filesys/directory.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/src.dir/filesys/directory.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/filesys/directory.c.o   -c "/Users/Boris/Nustore Files/pintos/src/filesys/directory.c"
 
 CMakeFiles/src.dir/filesys/directory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/filesys/directory.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/filesys/directory.c" > CMakeFiles/src.dir/filesys/directory.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/filesys/directory.c" > CMakeFiles/src.dir/filesys/directory.c.i
 
 CMakeFiles/src.dir/filesys/directory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/filesys/directory.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/filesys/directory.c" -o CMakeFiles/src.dir/filesys/directory.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/filesys/directory.c" -o CMakeFiles/src.dir/filesys/directory.c.s
 
 CMakeFiles/src.dir/filesys/directory.c.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/src.dir/filesys/directory.c.o.provides.build: CMakeFiles/src.dir/file
 
 CMakeFiles/src.dir/filesys/file.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/filesys/file.c.o: ../filesys/file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/src.dir/filesys/file.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/filesys/file.c.o   -c "/Users/borischen/Nustore Files/pintos/src/filesys/file.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/src.dir/filesys/file.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/filesys/file.c.o   -c "/Users/Boris/Nustore Files/pintos/src/filesys/file.c"
 
 CMakeFiles/src.dir/filesys/file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/filesys/file.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/filesys/file.c" > CMakeFiles/src.dir/filesys/file.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/filesys/file.c" > CMakeFiles/src.dir/filesys/file.c.i
 
 CMakeFiles/src.dir/filesys/file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/filesys/file.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/filesys/file.c" -o CMakeFiles/src.dir/filesys/file.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/filesys/file.c" -o CMakeFiles/src.dir/filesys/file.c.s
 
 CMakeFiles/src.dir/filesys/file.c.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/src.dir/filesys/file.c.o.provides.build: CMakeFiles/src.dir/filesys/f
 
 CMakeFiles/src.dir/filesys/filesys.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/filesys/filesys.c.o: ../filesys/filesys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/src.dir/filesys/filesys.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/filesys/filesys.c.o   -c "/Users/borischen/Nustore Files/pintos/src/filesys/filesys.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/src.dir/filesys/filesys.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/filesys/filesys.c.o   -c "/Users/Boris/Nustore Files/pintos/src/filesys/filesys.c"
 
 CMakeFiles/src.dir/filesys/filesys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/filesys/filesys.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/filesys/filesys.c" > CMakeFiles/src.dir/filesys/filesys.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/filesys/filesys.c" > CMakeFiles/src.dir/filesys/filesys.c.i
 
 CMakeFiles/src.dir/filesys/filesys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/filesys/filesys.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/filesys/filesys.c" -o CMakeFiles/src.dir/filesys/filesys.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/filesys/filesys.c" -o CMakeFiles/src.dir/filesys/filesys.c.s
 
 CMakeFiles/src.dir/filesys/filesys.c.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/src.dir/filesys/filesys.c.o.provides.build: CMakeFiles/src.dir/filesy
 
 CMakeFiles/src.dir/filesys/free-map.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/filesys/free-map.c.o: ../filesys/free-map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/src.dir/filesys/free-map.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/filesys/free-map.c.o   -c "/Users/borischen/Nustore Files/pintos/src/filesys/free-map.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/src.dir/filesys/free-map.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/filesys/free-map.c.o   -c "/Users/Boris/Nustore Files/pintos/src/filesys/free-map.c"
 
 CMakeFiles/src.dir/filesys/free-map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/filesys/free-map.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/filesys/free-map.c" > CMakeFiles/src.dir/filesys/free-map.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/filesys/free-map.c" > CMakeFiles/src.dir/filesys/free-map.c.i
 
 CMakeFiles/src.dir/filesys/free-map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/filesys/free-map.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/filesys/free-map.c" -o CMakeFiles/src.dir/filesys/free-map.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/filesys/free-map.c" -o CMakeFiles/src.dir/filesys/free-map.c.s
 
 CMakeFiles/src.dir/filesys/free-map.c.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/src.dir/filesys/free-map.c.o.provides.build: CMakeFiles/src.dir/files
 
 CMakeFiles/src.dir/filesys/fsutil.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/filesys/fsutil.c.o: ../filesys/fsutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/src.dir/filesys/fsutil.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/filesys/fsutil.c.o   -c "/Users/borischen/Nustore Files/pintos/src/filesys/fsutil.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/src.dir/filesys/fsutil.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/filesys/fsutil.c.o   -c "/Users/Boris/Nustore Files/pintos/src/filesys/fsutil.c"
 
 CMakeFiles/src.dir/filesys/fsutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/filesys/fsutil.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/filesys/fsutil.c" > CMakeFiles/src.dir/filesys/fsutil.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/filesys/fsutil.c" > CMakeFiles/src.dir/filesys/fsutil.c.i
 
 CMakeFiles/src.dir/filesys/fsutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/filesys/fsutil.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/filesys/fsutil.c" -o CMakeFiles/src.dir/filesys/fsutil.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/filesys/fsutil.c" -o CMakeFiles/src.dir/filesys/fsutil.c.s
 
 CMakeFiles/src.dir/filesys/fsutil.c.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/src.dir/filesys/fsutil.c.o.provides.build: CMakeFiles/src.dir/filesys
 
 CMakeFiles/src.dir/filesys/inode.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/filesys/inode.c.o: ../filesys/inode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/src.dir/filesys/inode.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/filesys/inode.c.o   -c "/Users/borischen/Nustore Files/pintos/src/filesys/inode.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/src.dir/filesys/inode.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/filesys/inode.c.o   -c "/Users/Boris/Nustore Files/pintos/src/filesys/inode.c"
 
 CMakeFiles/src.dir/filesys/inode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/filesys/inode.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/filesys/inode.c" > CMakeFiles/src.dir/filesys/inode.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/filesys/inode.c" > CMakeFiles/src.dir/filesys/inode.c.i
 
 CMakeFiles/src.dir/filesys/inode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/filesys/inode.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/filesys/inode.c" -o CMakeFiles/src.dir/filesys/inode.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/filesys/inode.c" -o CMakeFiles/src.dir/filesys/inode.c.s
 
 CMakeFiles/src.dir/filesys/inode.c.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/src.dir/filesys/inode.c.o.provides.build: CMakeFiles/src.dir/filesys/
 
 CMakeFiles/src.dir/threads/init.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/threads/init.c.o: ../threads/init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/src.dir/threads/init.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/threads/init.c.o   -c "/Users/borischen/Nustore Files/pintos/src/threads/init.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/src.dir/threads/init.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/threads/init.c.o   -c "/Users/Boris/Nustore Files/pintos/src/threads/init.c"
 
 CMakeFiles/src.dir/threads/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/threads/init.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/threads/init.c" > CMakeFiles/src.dir/threads/init.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/threads/init.c" > CMakeFiles/src.dir/threads/init.c.i
 
 CMakeFiles/src.dir/threads/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/threads/init.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/threads/init.c" -o CMakeFiles/src.dir/threads/init.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/threads/init.c" -o CMakeFiles/src.dir/threads/init.c.s
 
 CMakeFiles/src.dir/threads/init.c.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/src.dir/threads/init.c.o.provides.build: CMakeFiles/src.dir/threads/i
 
 CMakeFiles/src.dir/threads/interrupt.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/threads/interrupt.c.o: ../threads/interrupt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/src.dir/threads/interrupt.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/threads/interrupt.c.o   -c "/Users/borischen/Nustore Files/pintos/src/threads/interrupt.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/src.dir/threads/interrupt.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/threads/interrupt.c.o   -c "/Users/Boris/Nustore Files/pintos/src/threads/interrupt.c"
 
 CMakeFiles/src.dir/threads/interrupt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/threads/interrupt.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/threads/interrupt.c" > CMakeFiles/src.dir/threads/interrupt.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/threads/interrupt.c" > CMakeFiles/src.dir/threads/interrupt.c.i
 
 CMakeFiles/src.dir/threads/interrupt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/threads/interrupt.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/threads/interrupt.c" -o CMakeFiles/src.dir/threads/interrupt.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/threads/interrupt.c" -o CMakeFiles/src.dir/threads/interrupt.c.s
 
 CMakeFiles/src.dir/threads/interrupt.c.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/src.dir/threads/interrupt.c.o.provides.build: CMakeFiles/src.dir/thre
 
 CMakeFiles/src.dir/threads/malloc.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/threads/malloc.c.o: ../threads/malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/src.dir/threads/malloc.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/threads/malloc.c.o   -c "/Users/borischen/Nustore Files/pintos/src/threads/malloc.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/src.dir/threads/malloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/threads/malloc.c.o   -c "/Users/Boris/Nustore Files/pintos/src/threads/malloc.c"
 
 CMakeFiles/src.dir/threads/malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/threads/malloc.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/threads/malloc.c" > CMakeFiles/src.dir/threads/malloc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/threads/malloc.c" > CMakeFiles/src.dir/threads/malloc.c.i
 
 CMakeFiles/src.dir/threads/malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/threads/malloc.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/threads/malloc.c" -o CMakeFiles/src.dir/threads/malloc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/threads/malloc.c" -o CMakeFiles/src.dir/threads/malloc.c.s
 
 CMakeFiles/src.dir/threads/malloc.c.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/src.dir/threads/malloc.c.o.provides.build: CMakeFiles/src.dir/threads
 
 CMakeFiles/src.dir/threads/palloc.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/threads/palloc.c.o: ../threads/palloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/src.dir/threads/palloc.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/threads/palloc.c.o   -c "/Users/borischen/Nustore Files/pintos/src/threads/palloc.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/src.dir/threads/palloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/threads/palloc.c.o   -c "/Users/Boris/Nustore Files/pintos/src/threads/palloc.c"
 
 CMakeFiles/src.dir/threads/palloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/threads/palloc.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/threads/palloc.c" > CMakeFiles/src.dir/threads/palloc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/threads/palloc.c" > CMakeFiles/src.dir/threads/palloc.c.i
 
 CMakeFiles/src.dir/threads/palloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/threads/palloc.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/threads/palloc.c" -o CMakeFiles/src.dir/threads/palloc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/threads/palloc.c" -o CMakeFiles/src.dir/threads/palloc.c.s
 
 CMakeFiles/src.dir/threads/palloc.c.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/src.dir/threads/palloc.c.o.provides.build: CMakeFiles/src.dir/threads
 
 CMakeFiles/src.dir/threads/synch.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/threads/synch.c.o: ../threads/synch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/src.dir/threads/synch.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/threads/synch.c.o   -c "/Users/borischen/Nustore Files/pintos/src/threads/synch.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/src.dir/threads/synch.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/threads/synch.c.o   -c "/Users/Boris/Nustore Files/pintos/src/threads/synch.c"
 
 CMakeFiles/src.dir/threads/synch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/threads/synch.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/threads/synch.c" > CMakeFiles/src.dir/threads/synch.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/threads/synch.c" > CMakeFiles/src.dir/threads/synch.c.i
 
 CMakeFiles/src.dir/threads/synch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/threads/synch.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/threads/synch.c" -o CMakeFiles/src.dir/threads/synch.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/threads/synch.c" -o CMakeFiles/src.dir/threads/synch.c.s
 
 CMakeFiles/src.dir/threads/synch.c.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/src.dir/threads/synch.c.o.provides.build: CMakeFiles/src.dir/threads/
 
 CMakeFiles/src.dir/threads/thread.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/threads/thread.c.o: ../threads/thread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/src.dir/threads/thread.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/threads/thread.c.o   -c "/Users/borischen/Nustore Files/pintos/src/threads/thread.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/src.dir/threads/thread.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/threads/thread.c.o   -c "/Users/Boris/Nustore Files/pintos/src/threads/thread.c"
 
 CMakeFiles/src.dir/threads/thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/threads/thread.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/threads/thread.c" > CMakeFiles/src.dir/threads/thread.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/threads/thread.c" > CMakeFiles/src.dir/threads/thread.c.i
 
 CMakeFiles/src.dir/threads/thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/threads/thread.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/threads/thread.c" -o CMakeFiles/src.dir/threads/thread.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/threads/thread.c" -o CMakeFiles/src.dir/threads/thread.c.s
 
 CMakeFiles/src.dir/threads/thread.c.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/src.dir/threads/thread.c.o.provides.build: CMakeFiles/src.dir/threads
 
 CMakeFiles/src.dir/userprog/exception.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/userprog/exception.c.o: ../userprog/exception.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/src.dir/userprog/exception.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/userprog/exception.c.o   -c "/Users/borischen/Nustore Files/pintos/src/userprog/exception.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/src.dir/userprog/exception.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/userprog/exception.c.o   -c "/Users/Boris/Nustore Files/pintos/src/userprog/exception.c"
 
 CMakeFiles/src.dir/userprog/exception.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/userprog/exception.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/userprog/exception.c" > CMakeFiles/src.dir/userprog/exception.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/userprog/exception.c" > CMakeFiles/src.dir/userprog/exception.c.i
 
 CMakeFiles/src.dir/userprog/exception.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/userprog/exception.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/userprog/exception.c" -o CMakeFiles/src.dir/userprog/exception.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/userprog/exception.c" -o CMakeFiles/src.dir/userprog/exception.c.s
 
 CMakeFiles/src.dir/userprog/exception.c.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/src.dir/userprog/exception.c.o.provides.build: CMakeFiles/src.dir/use
 
 CMakeFiles/src.dir/userprog/gdt.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/userprog/gdt.c.o: ../userprog/gdt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/src.dir/userprog/gdt.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/userprog/gdt.c.o   -c "/Users/borischen/Nustore Files/pintos/src/userprog/gdt.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/src.dir/userprog/gdt.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/userprog/gdt.c.o   -c "/Users/Boris/Nustore Files/pintos/src/userprog/gdt.c"
 
 CMakeFiles/src.dir/userprog/gdt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/userprog/gdt.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/userprog/gdt.c" > CMakeFiles/src.dir/userprog/gdt.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/userprog/gdt.c" > CMakeFiles/src.dir/userprog/gdt.c.i
 
 CMakeFiles/src.dir/userprog/gdt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/userprog/gdt.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/userprog/gdt.c" -o CMakeFiles/src.dir/userprog/gdt.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/userprog/gdt.c" -o CMakeFiles/src.dir/userprog/gdt.c.s
 
 CMakeFiles/src.dir/userprog/gdt.c.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/src.dir/userprog/gdt.c.o.provides.build: CMakeFiles/src.dir/userprog/
 
 CMakeFiles/src.dir/userprog/pagedir.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/userprog/pagedir.c.o: ../userprog/pagedir.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/src.dir/userprog/pagedir.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/userprog/pagedir.c.o   -c "/Users/borischen/Nustore Files/pintos/src/userprog/pagedir.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/src.dir/userprog/pagedir.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/userprog/pagedir.c.o   -c "/Users/Boris/Nustore Files/pintos/src/userprog/pagedir.c"
 
 CMakeFiles/src.dir/userprog/pagedir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/userprog/pagedir.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/userprog/pagedir.c" > CMakeFiles/src.dir/userprog/pagedir.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/userprog/pagedir.c" > CMakeFiles/src.dir/userprog/pagedir.c.i
 
 CMakeFiles/src.dir/userprog/pagedir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/userprog/pagedir.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/userprog/pagedir.c" -o CMakeFiles/src.dir/userprog/pagedir.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/userprog/pagedir.c" -o CMakeFiles/src.dir/userprog/pagedir.c.s
 
 CMakeFiles/src.dir/userprog/pagedir.c.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/src.dir/userprog/pagedir.c.o.provides.build: CMakeFiles/src.dir/userp
 
 CMakeFiles/src.dir/userprog/process.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/userprog/process.c.o: ../userprog/process.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/src.dir/userprog/process.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/userprog/process.c.o   -c "/Users/borischen/Nustore Files/pintos/src/userprog/process.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/src.dir/userprog/process.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/userprog/process.c.o   -c "/Users/Boris/Nustore Files/pintos/src/userprog/process.c"
 
 CMakeFiles/src.dir/userprog/process.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/userprog/process.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/userprog/process.c" > CMakeFiles/src.dir/userprog/process.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/userprog/process.c" > CMakeFiles/src.dir/userprog/process.c.i
 
 CMakeFiles/src.dir/userprog/process.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/userprog/process.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/userprog/process.c" -o CMakeFiles/src.dir/userprog/process.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/userprog/process.c" -o CMakeFiles/src.dir/userprog/process.c.s
 
 CMakeFiles/src.dir/userprog/process.c.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/src.dir/userprog/process.c.o.provides.build: CMakeFiles/src.dir/userp
 
 CMakeFiles/src.dir/userprog/syscall.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/userprog/syscall.c.o: ../userprog/syscall.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/src.dir/userprog/syscall.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/userprog/syscall.c.o   -c "/Users/borischen/Nustore Files/pintos/src/userprog/syscall.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/src.dir/userprog/syscall.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/userprog/syscall.c.o   -c "/Users/Boris/Nustore Files/pintos/src/userprog/syscall.c"
 
 CMakeFiles/src.dir/userprog/syscall.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/userprog/syscall.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/userprog/syscall.c" > CMakeFiles/src.dir/userprog/syscall.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/userprog/syscall.c" > CMakeFiles/src.dir/userprog/syscall.c.i
 
 CMakeFiles/src.dir/userprog/syscall.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/userprog/syscall.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/userprog/syscall.c" -o CMakeFiles/src.dir/userprog/syscall.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/userprog/syscall.c" -o CMakeFiles/src.dir/userprog/syscall.c.s
 
 CMakeFiles/src.dir/userprog/syscall.c.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/src.dir/userprog/syscall.c.o.provides.build: CMakeFiles/src.dir/userp
 
 CMakeFiles/src.dir/userprog/tss.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/userprog/tss.c.o: ../userprog/tss.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/src.dir/userprog/tss.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/userprog/tss.c.o   -c "/Users/borischen/Nustore Files/pintos/src/userprog/tss.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/src.dir/userprog/tss.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/userprog/tss.c.o   -c "/Users/Boris/Nustore Files/pintos/src/userprog/tss.c"
 
 CMakeFiles/src.dir/userprog/tss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/userprog/tss.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/userprog/tss.c" > CMakeFiles/src.dir/userprog/tss.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/userprog/tss.c" > CMakeFiles/src.dir/userprog/tss.c.i
 
 CMakeFiles/src.dir/userprog/tss.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/userprog/tss.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/userprog/tss.c" -o CMakeFiles/src.dir/userprog/tss.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/userprog/tss.c" -o CMakeFiles/src.dir/userprog/tss.c.s
 
 CMakeFiles/src.dir/userprog/tss.c.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/src.dir/userprog/tss.c.o.provides.build: CMakeFiles/src.dir/userprog/
 
 CMakeFiles/src.dir/utils/setitimer-helper.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/utils/setitimer-helper.c.o: ../utils/setitimer-helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/src.dir/utils/setitimer-helper.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/utils/setitimer-helper.c.o   -c "/Users/borischen/Nustore Files/pintos/src/utils/setitimer-helper.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/src.dir/utils/setitimer-helper.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/utils/setitimer-helper.c.o   -c "/Users/Boris/Nustore Files/pintos/src/utils/setitimer-helper.c"
 
 CMakeFiles/src.dir/utils/setitimer-helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/utils/setitimer-helper.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/utils/setitimer-helper.c" > CMakeFiles/src.dir/utils/setitimer-helper.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/utils/setitimer-helper.c" > CMakeFiles/src.dir/utils/setitimer-helper.c.i
 
 CMakeFiles/src.dir/utils/setitimer-helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/utils/setitimer-helper.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/utils/setitimer-helper.c" -o CMakeFiles/src.dir/utils/setitimer-helper.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/utils/setitimer-helper.c" -o CMakeFiles/src.dir/utils/setitimer-helper.c.s
 
 CMakeFiles/src.dir/utils/setitimer-helper.c.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/src.dir/utils/setitimer-helper.c.o.provides.build: CMakeFiles/src.dir
 
 CMakeFiles/src.dir/utils/squish-pty.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/utils/squish-pty.c.o: ../utils/squish-pty.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/src.dir/utils/squish-pty.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/utils/squish-pty.c.o   -c "/Users/borischen/Nustore Files/pintos/src/utils/squish-pty.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/src.dir/utils/squish-pty.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/utils/squish-pty.c.o   -c "/Users/Boris/Nustore Files/pintos/src/utils/squish-pty.c"
 
 CMakeFiles/src.dir/utils/squish-pty.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/utils/squish-pty.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/utils/squish-pty.c" > CMakeFiles/src.dir/utils/squish-pty.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/utils/squish-pty.c" > CMakeFiles/src.dir/utils/squish-pty.c.i
 
 CMakeFiles/src.dir/utils/squish-pty.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/utils/squish-pty.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/utils/squish-pty.c" -o CMakeFiles/src.dir/utils/squish-pty.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/utils/squish-pty.c" -o CMakeFiles/src.dir/utils/squish-pty.c.s
 
 CMakeFiles/src.dir/utils/squish-pty.c.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/src.dir/utils/squish-pty.c.o.provides.build: CMakeFiles/src.dir/utils
 
 CMakeFiles/src.dir/utils/squish-unix.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/utils/squish-unix.c.o: ../utils/squish-unix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/src.dir/utils/squish-unix.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/utils/squish-unix.c.o   -c "/Users/borischen/Nustore Files/pintos/src/utils/squish-unix.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/src.dir/utils/squish-unix.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/utils/squish-unix.c.o   -c "/Users/Boris/Nustore Files/pintos/src/utils/squish-unix.c"
 
 CMakeFiles/src.dir/utils/squish-unix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/utils/squish-unix.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/utils/squish-unix.c" > CMakeFiles/src.dir/utils/squish-unix.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/utils/squish-unix.c" > CMakeFiles/src.dir/utils/squish-unix.c.i
 
 CMakeFiles/src.dir/utils/squish-unix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/utils/squish-unix.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/utils/squish-unix.c" -o CMakeFiles/src.dir/utils/squish-unix.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/utils/squish-unix.c" -o CMakeFiles/src.dir/utils/squish-unix.c.s
 
 CMakeFiles/src.dir/utils/squish-unix.c.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/src.dir/utils/squish-unix.c.o.provides.build: CMakeFiles/src.dir/util
 
 CMakeFiles/src.dir/tests/arc4.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/tests/arc4.c.o: ../tests/arc4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/src.dir/tests/arc4.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/tests/arc4.c.o   -c "/Users/borischen/Nustore Files/pintos/src/tests/arc4.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/src.dir/tests/arc4.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/tests/arc4.c.o   -c "/Users/Boris/Nustore Files/pintos/src/tests/arc4.c"
 
 CMakeFiles/src.dir/tests/arc4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/tests/arc4.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/tests/arc4.c" > CMakeFiles/src.dir/tests/arc4.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/tests/arc4.c" > CMakeFiles/src.dir/tests/arc4.c.i
 
 CMakeFiles/src.dir/tests/arc4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/tests/arc4.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/tests/arc4.c" -o CMakeFiles/src.dir/tests/arc4.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/tests/arc4.c" -o CMakeFiles/src.dir/tests/arc4.c.s
 
 CMakeFiles/src.dir/tests/arc4.c.o.requires:
 
@@ -755,16 +755,16 @@ CMakeFiles/src.dir/tests/arc4.c.o.provides.build: CMakeFiles/src.dir/tests/arc4.
 
 CMakeFiles/src.dir/tests/cksum.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/tests/cksum.c.o: ../tests/cksum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/src.dir/tests/cksum.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/tests/cksum.c.o   -c "/Users/borischen/Nustore Files/pintos/src/tests/cksum.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/src.dir/tests/cksum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/tests/cksum.c.o   -c "/Users/Boris/Nustore Files/pintos/src/tests/cksum.c"
 
 CMakeFiles/src.dir/tests/cksum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/tests/cksum.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/tests/cksum.c" > CMakeFiles/src.dir/tests/cksum.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/tests/cksum.c" > CMakeFiles/src.dir/tests/cksum.c.i
 
 CMakeFiles/src.dir/tests/cksum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/tests/cksum.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/tests/cksum.c" -o CMakeFiles/src.dir/tests/cksum.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/tests/cksum.c" -o CMakeFiles/src.dir/tests/cksum.c.s
 
 CMakeFiles/src.dir/tests/cksum.c.o.requires:
 
@@ -779,16 +779,16 @@ CMakeFiles/src.dir/tests/cksum.c.o.provides.build: CMakeFiles/src.dir/tests/cksu
 
 CMakeFiles/src.dir/tests/lib.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/tests/lib.c.o: ../tests/lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/src.dir/tests/lib.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/tests/lib.c.o   -c "/Users/borischen/Nustore Files/pintos/src/tests/lib.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/src.dir/tests/lib.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/tests/lib.c.o   -c "/Users/Boris/Nustore Files/pintos/src/tests/lib.c"
 
 CMakeFiles/src.dir/tests/lib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/tests/lib.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/tests/lib.c" > CMakeFiles/src.dir/tests/lib.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/tests/lib.c" > CMakeFiles/src.dir/tests/lib.c.i
 
 CMakeFiles/src.dir/tests/lib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/tests/lib.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/tests/lib.c" -o CMakeFiles/src.dir/tests/lib.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/tests/lib.c" -o CMakeFiles/src.dir/tests/lib.c.s
 
 CMakeFiles/src.dir/tests/lib.c.o.requires:
 
@@ -803,16 +803,16 @@ CMakeFiles/src.dir/tests/lib.c.o.provides.build: CMakeFiles/src.dir/tests/lib.c.
 
 CMakeFiles/src.dir/tests/main.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/tests/main.c.o: ../tests/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/src.dir/tests/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/tests/main.c.o   -c "/Users/borischen/Nustore Files/pintos/src/tests/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/src.dir/tests/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/tests/main.c.o   -c "/Users/Boris/Nustore Files/pintos/src/tests/main.c"
 
 CMakeFiles/src.dir/tests/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/tests/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/tests/main.c" > CMakeFiles/src.dir/tests/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/tests/main.c" > CMakeFiles/src.dir/tests/main.c.i
 
 CMakeFiles/src.dir/tests/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/tests/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/tests/main.c" -o CMakeFiles/src.dir/tests/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/tests/main.c" -o CMakeFiles/src.dir/tests/main.c.s
 
 CMakeFiles/src.dir/tests/main.c.o.requires:
 
@@ -827,16 +827,16 @@ CMakeFiles/src.dir/tests/main.c.o.provides.build: CMakeFiles/src.dir/tests/main.
 
 CMakeFiles/src.dir/examples/bubsort.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/bubsort.c.o: ../examples/bubsort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/src.dir/examples/bubsort.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/bubsort.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/bubsort.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/src.dir/examples/bubsort.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/bubsort.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/bubsort.c"
 
 CMakeFiles/src.dir/examples/bubsort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/bubsort.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/bubsort.c" > CMakeFiles/src.dir/examples/bubsort.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/bubsort.c" > CMakeFiles/src.dir/examples/bubsort.c.i
 
 CMakeFiles/src.dir/examples/bubsort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/bubsort.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/bubsort.c" -o CMakeFiles/src.dir/examples/bubsort.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/bubsort.c" -o CMakeFiles/src.dir/examples/bubsort.c.s
 
 CMakeFiles/src.dir/examples/bubsort.c.o.requires:
 
@@ -851,16 +851,16 @@ CMakeFiles/src.dir/examples/bubsort.c.o.provides.build: CMakeFiles/src.dir/examp
 
 CMakeFiles/src.dir/examples/cat.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/cat.c.o: ../examples/cat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/src.dir/examples/cat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/cat.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/cat.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/src.dir/examples/cat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/cat.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/cat.c"
 
 CMakeFiles/src.dir/examples/cat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/cat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/cat.c" > CMakeFiles/src.dir/examples/cat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/cat.c" > CMakeFiles/src.dir/examples/cat.c.i
 
 CMakeFiles/src.dir/examples/cat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/cat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/cat.c" -o CMakeFiles/src.dir/examples/cat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/cat.c" -o CMakeFiles/src.dir/examples/cat.c.s
 
 CMakeFiles/src.dir/examples/cat.c.o.requires:
 
@@ -875,16 +875,16 @@ CMakeFiles/src.dir/examples/cat.c.o.provides.build: CMakeFiles/src.dir/examples/
 
 CMakeFiles/src.dir/examples/cmp.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/cmp.c.o: ../examples/cmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/src.dir/examples/cmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/cmp.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/cmp.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/src.dir/examples/cmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/cmp.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/cmp.c"
 
 CMakeFiles/src.dir/examples/cmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/cmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/cmp.c" > CMakeFiles/src.dir/examples/cmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/cmp.c" > CMakeFiles/src.dir/examples/cmp.c.i
 
 CMakeFiles/src.dir/examples/cmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/cmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/cmp.c" -o CMakeFiles/src.dir/examples/cmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/cmp.c" -o CMakeFiles/src.dir/examples/cmp.c.s
 
 CMakeFiles/src.dir/examples/cmp.c.o.requires:
 
@@ -899,16 +899,16 @@ CMakeFiles/src.dir/examples/cmp.c.o.provides.build: CMakeFiles/src.dir/examples/
 
 CMakeFiles/src.dir/examples/cp.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/cp.c.o: ../examples/cp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/src.dir/examples/cp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/cp.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/cp.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/src.dir/examples/cp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/cp.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/cp.c"
 
 CMakeFiles/src.dir/examples/cp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/cp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/cp.c" > CMakeFiles/src.dir/examples/cp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/cp.c" > CMakeFiles/src.dir/examples/cp.c.i
 
 CMakeFiles/src.dir/examples/cp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/cp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/cp.c" -o CMakeFiles/src.dir/examples/cp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/cp.c" -o CMakeFiles/src.dir/examples/cp.c.s
 
 CMakeFiles/src.dir/examples/cp.c.o.requires:
 
@@ -923,16 +923,16 @@ CMakeFiles/src.dir/examples/cp.c.o.provides.build: CMakeFiles/src.dir/examples/c
 
 CMakeFiles/src.dir/examples/echo.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/echo.c.o: ../examples/echo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/src.dir/examples/echo.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/echo.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/echo.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/src.dir/examples/echo.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/echo.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/echo.c"
 
 CMakeFiles/src.dir/examples/echo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/echo.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/echo.c" > CMakeFiles/src.dir/examples/echo.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/echo.c" > CMakeFiles/src.dir/examples/echo.c.i
 
 CMakeFiles/src.dir/examples/echo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/echo.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/echo.c" -o CMakeFiles/src.dir/examples/echo.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/echo.c" -o CMakeFiles/src.dir/examples/echo.c.s
 
 CMakeFiles/src.dir/examples/echo.c.o.requires:
 
@@ -947,16 +947,16 @@ CMakeFiles/src.dir/examples/echo.c.o.provides.build: CMakeFiles/src.dir/examples
 
 CMakeFiles/src.dir/examples/halt.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/halt.c.o: ../examples/halt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/src.dir/examples/halt.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/halt.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/halt.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/src.dir/examples/halt.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/halt.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/halt.c"
 
 CMakeFiles/src.dir/examples/halt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/halt.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/halt.c" > CMakeFiles/src.dir/examples/halt.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/halt.c" > CMakeFiles/src.dir/examples/halt.c.i
 
 CMakeFiles/src.dir/examples/halt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/halt.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/halt.c" -o CMakeFiles/src.dir/examples/halt.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/halt.c" -o CMakeFiles/src.dir/examples/halt.c.s
 
 CMakeFiles/src.dir/examples/halt.c.o.requires:
 
@@ -971,16 +971,16 @@ CMakeFiles/src.dir/examples/halt.c.o.provides.build: CMakeFiles/src.dir/examples
 
 CMakeFiles/src.dir/examples/hex-dump.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/hex-dump.c.o: ../examples/hex-dump.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/src.dir/examples/hex-dump.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/hex-dump.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/hex-dump.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/src.dir/examples/hex-dump.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/hex-dump.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/hex-dump.c"
 
 CMakeFiles/src.dir/examples/hex-dump.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/hex-dump.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/hex-dump.c" > CMakeFiles/src.dir/examples/hex-dump.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/hex-dump.c" > CMakeFiles/src.dir/examples/hex-dump.c.i
 
 CMakeFiles/src.dir/examples/hex-dump.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/hex-dump.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/hex-dump.c" -o CMakeFiles/src.dir/examples/hex-dump.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/hex-dump.c" -o CMakeFiles/src.dir/examples/hex-dump.c.s
 
 CMakeFiles/src.dir/examples/hex-dump.c.o.requires:
 
@@ -995,16 +995,16 @@ CMakeFiles/src.dir/examples/hex-dump.c.o.provides.build: CMakeFiles/src.dir/exam
 
 CMakeFiles/src.dir/examples/insult.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/insult.c.o: ../examples/insult.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/src.dir/examples/insult.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/insult.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/insult.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/src.dir/examples/insult.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/insult.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/insult.c"
 
 CMakeFiles/src.dir/examples/insult.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/insult.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/insult.c" > CMakeFiles/src.dir/examples/insult.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/insult.c" > CMakeFiles/src.dir/examples/insult.c.i
 
 CMakeFiles/src.dir/examples/insult.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/insult.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/insult.c" -o CMakeFiles/src.dir/examples/insult.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/insult.c" -o CMakeFiles/src.dir/examples/insult.c.s
 
 CMakeFiles/src.dir/examples/insult.c.o.requires:
 
@@ -1019,16 +1019,16 @@ CMakeFiles/src.dir/examples/insult.c.o.provides.build: CMakeFiles/src.dir/exampl
 
 CMakeFiles/src.dir/examples/lineup.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/lineup.c.o: ../examples/lineup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/src.dir/examples/lineup.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/lineup.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/lineup.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/src.dir/examples/lineup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/lineup.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/lineup.c"
 
 CMakeFiles/src.dir/examples/lineup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/lineup.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/lineup.c" > CMakeFiles/src.dir/examples/lineup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/lineup.c" > CMakeFiles/src.dir/examples/lineup.c.i
 
 CMakeFiles/src.dir/examples/lineup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/lineup.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/lineup.c" -o CMakeFiles/src.dir/examples/lineup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/lineup.c" -o CMakeFiles/src.dir/examples/lineup.c.s
 
 CMakeFiles/src.dir/examples/lineup.c.o.requires:
 
@@ -1043,16 +1043,16 @@ CMakeFiles/src.dir/examples/lineup.c.o.provides.build: CMakeFiles/src.dir/exampl
 
 CMakeFiles/src.dir/examples/ls.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/ls.c.o: ../examples/ls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/src.dir/examples/ls.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/ls.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/ls.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/src.dir/examples/ls.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/ls.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/ls.c"
 
 CMakeFiles/src.dir/examples/ls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/ls.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/ls.c" > CMakeFiles/src.dir/examples/ls.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/ls.c" > CMakeFiles/src.dir/examples/ls.c.i
 
 CMakeFiles/src.dir/examples/ls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/ls.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/ls.c" -o CMakeFiles/src.dir/examples/ls.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/ls.c" -o CMakeFiles/src.dir/examples/ls.c.s
 
 CMakeFiles/src.dir/examples/ls.c.o.requires:
 
@@ -1067,16 +1067,16 @@ CMakeFiles/src.dir/examples/ls.c.o.provides.build: CMakeFiles/src.dir/examples/l
 
 CMakeFiles/src.dir/examples/matmult.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/matmult.c.o: ../examples/matmult.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/src.dir/examples/matmult.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/matmult.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/matmult.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/src.dir/examples/matmult.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/matmult.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/matmult.c"
 
 CMakeFiles/src.dir/examples/matmult.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/matmult.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/matmult.c" > CMakeFiles/src.dir/examples/matmult.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/matmult.c" > CMakeFiles/src.dir/examples/matmult.c.i
 
 CMakeFiles/src.dir/examples/matmult.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/matmult.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/matmult.c" -o CMakeFiles/src.dir/examples/matmult.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/matmult.c" -o CMakeFiles/src.dir/examples/matmult.c.s
 
 CMakeFiles/src.dir/examples/matmult.c.o.requires:
 
@@ -1091,16 +1091,16 @@ CMakeFiles/src.dir/examples/matmult.c.o.provides.build: CMakeFiles/src.dir/examp
 
 CMakeFiles/src.dir/examples/mcat.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/mcat.c.o: ../examples/mcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/src.dir/examples/mcat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/mcat.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/mcat.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/src.dir/examples/mcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/mcat.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/mcat.c"
 
 CMakeFiles/src.dir/examples/mcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/mcat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/mcat.c" > CMakeFiles/src.dir/examples/mcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/mcat.c" > CMakeFiles/src.dir/examples/mcat.c.i
 
 CMakeFiles/src.dir/examples/mcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/mcat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/mcat.c" -o CMakeFiles/src.dir/examples/mcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/mcat.c" -o CMakeFiles/src.dir/examples/mcat.c.s
 
 CMakeFiles/src.dir/examples/mcat.c.o.requires:
 
@@ -1115,16 +1115,16 @@ CMakeFiles/src.dir/examples/mcat.c.o.provides.build: CMakeFiles/src.dir/examples
 
 CMakeFiles/src.dir/examples/mcp.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/mcp.c.o: ../examples/mcp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/src.dir/examples/mcp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/mcp.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/mcp.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/src.dir/examples/mcp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/mcp.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/mcp.c"
 
 CMakeFiles/src.dir/examples/mcp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/mcp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/mcp.c" > CMakeFiles/src.dir/examples/mcp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/mcp.c" > CMakeFiles/src.dir/examples/mcp.c.i
 
 CMakeFiles/src.dir/examples/mcp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/mcp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/mcp.c" -o CMakeFiles/src.dir/examples/mcp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/mcp.c" -o CMakeFiles/src.dir/examples/mcp.c.s
 
 CMakeFiles/src.dir/examples/mcp.c.o.requires:
 
@@ -1139,16 +1139,16 @@ CMakeFiles/src.dir/examples/mcp.c.o.provides.build: CMakeFiles/src.dir/examples/
 
 CMakeFiles/src.dir/examples/mkdir.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/mkdir.c.o: ../examples/mkdir.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/src.dir/examples/mkdir.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/mkdir.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/mkdir.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/src.dir/examples/mkdir.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/mkdir.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/mkdir.c"
 
 CMakeFiles/src.dir/examples/mkdir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/mkdir.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/mkdir.c" > CMakeFiles/src.dir/examples/mkdir.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/mkdir.c" > CMakeFiles/src.dir/examples/mkdir.c.i
 
 CMakeFiles/src.dir/examples/mkdir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/mkdir.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/mkdir.c" -o CMakeFiles/src.dir/examples/mkdir.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/mkdir.c" -o CMakeFiles/src.dir/examples/mkdir.c.s
 
 CMakeFiles/src.dir/examples/mkdir.c.o.requires:
 
@@ -1163,16 +1163,16 @@ CMakeFiles/src.dir/examples/mkdir.c.o.provides.build: CMakeFiles/src.dir/example
 
 CMakeFiles/src.dir/examples/pwd.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/pwd.c.o: ../examples/pwd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/src.dir/examples/pwd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/pwd.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/pwd.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/src.dir/examples/pwd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/pwd.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/pwd.c"
 
 CMakeFiles/src.dir/examples/pwd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/pwd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/pwd.c" > CMakeFiles/src.dir/examples/pwd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/pwd.c" > CMakeFiles/src.dir/examples/pwd.c.i
 
 CMakeFiles/src.dir/examples/pwd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/pwd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/pwd.c" -o CMakeFiles/src.dir/examples/pwd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/pwd.c" -o CMakeFiles/src.dir/examples/pwd.c.s
 
 CMakeFiles/src.dir/examples/pwd.c.o.requires:
 
@@ -1187,16 +1187,16 @@ CMakeFiles/src.dir/examples/pwd.c.o.provides.build: CMakeFiles/src.dir/examples/
 
 CMakeFiles/src.dir/examples/recursor.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/recursor.c.o: ../examples/recursor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/src.dir/examples/recursor.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/recursor.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/recursor.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/src.dir/examples/recursor.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/recursor.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/recursor.c"
 
 CMakeFiles/src.dir/examples/recursor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/recursor.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/recursor.c" > CMakeFiles/src.dir/examples/recursor.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/recursor.c" > CMakeFiles/src.dir/examples/recursor.c.i
 
 CMakeFiles/src.dir/examples/recursor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/recursor.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/recursor.c" -o CMakeFiles/src.dir/examples/recursor.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/recursor.c" -o CMakeFiles/src.dir/examples/recursor.c.s
 
 CMakeFiles/src.dir/examples/recursor.c.o.requires:
 
@@ -1211,16 +1211,16 @@ CMakeFiles/src.dir/examples/recursor.c.o.provides.build: CMakeFiles/src.dir/exam
 
 CMakeFiles/src.dir/examples/rm.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/rm.c.o: ../examples/rm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/src.dir/examples/rm.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/rm.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/rm.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/src.dir/examples/rm.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/rm.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/rm.c"
 
 CMakeFiles/src.dir/examples/rm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/rm.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/rm.c" > CMakeFiles/src.dir/examples/rm.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/rm.c" > CMakeFiles/src.dir/examples/rm.c.i
 
 CMakeFiles/src.dir/examples/rm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/rm.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/rm.c" -o CMakeFiles/src.dir/examples/rm.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/rm.c" -o CMakeFiles/src.dir/examples/rm.c.s
 
 CMakeFiles/src.dir/examples/rm.c.o.requires:
 
@@ -1235,16 +1235,16 @@ CMakeFiles/src.dir/examples/rm.c.o.provides.build: CMakeFiles/src.dir/examples/r
 
 CMakeFiles/src.dir/examples/shell.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/examples/shell.c.o: ../examples/shell.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/src.dir/examples/shell.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/shell.c.o   -c "/Users/borischen/Nustore Files/pintos/src/examples/shell.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/src.dir/examples/shell.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/examples/shell.c.o   -c "/Users/Boris/Nustore Files/pintos/src/examples/shell.c"
 
 CMakeFiles/src.dir/examples/shell.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/examples/shell.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/examples/shell.c" > CMakeFiles/src.dir/examples/shell.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/examples/shell.c" > CMakeFiles/src.dir/examples/shell.c.i
 
 CMakeFiles/src.dir/examples/shell.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/examples/shell.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/examples/shell.c" -o CMakeFiles/src.dir/examples/shell.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/examples/shell.c" -o CMakeFiles/src.dir/examples/shell.c.s
 
 CMakeFiles/src.dir/examples/shell.c.o.requires:
 
@@ -1259,16 +1259,16 @@ CMakeFiles/src.dir/examples/shell.c.o.provides.build: CMakeFiles/src.dir/example
 
 CMakeFiles/src.dir/devices/block.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/devices/block.c.o: ../devices/block.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/src.dir/devices/block.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/block.c.o   -c "/Users/borischen/Nustore Files/pintos/src/devices/block.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/src.dir/devices/block.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/block.c.o   -c "/Users/Boris/Nustore Files/pintos/src/devices/block.c"
 
 CMakeFiles/src.dir/devices/block.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/devices/block.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/devices/block.c" > CMakeFiles/src.dir/devices/block.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/devices/block.c" > CMakeFiles/src.dir/devices/block.c.i
 
 CMakeFiles/src.dir/devices/block.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/devices/block.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/devices/block.c" -o CMakeFiles/src.dir/devices/block.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/devices/block.c" -o CMakeFiles/src.dir/devices/block.c.s
 
 CMakeFiles/src.dir/devices/block.c.o.requires:
 
@@ -1283,16 +1283,16 @@ CMakeFiles/src.dir/devices/block.c.o.provides.build: CMakeFiles/src.dir/devices/
 
 CMakeFiles/src.dir/devices/ide.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/devices/ide.c.o: ../devices/ide.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/src.dir/devices/ide.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/ide.c.o   -c "/Users/borischen/Nustore Files/pintos/src/devices/ide.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/src.dir/devices/ide.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/ide.c.o   -c "/Users/Boris/Nustore Files/pintos/src/devices/ide.c"
 
 CMakeFiles/src.dir/devices/ide.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/devices/ide.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/devices/ide.c" > CMakeFiles/src.dir/devices/ide.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/devices/ide.c" > CMakeFiles/src.dir/devices/ide.c.i
 
 CMakeFiles/src.dir/devices/ide.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/devices/ide.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/devices/ide.c" -o CMakeFiles/src.dir/devices/ide.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/devices/ide.c" -o CMakeFiles/src.dir/devices/ide.c.s
 
 CMakeFiles/src.dir/devices/ide.c.o.requires:
 
@@ -1307,16 +1307,16 @@ CMakeFiles/src.dir/devices/ide.c.o.provides.build: CMakeFiles/src.dir/devices/id
 
 CMakeFiles/src.dir/devices/input.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/devices/input.c.o: ../devices/input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/src.dir/devices/input.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/input.c.o   -c "/Users/borischen/Nustore Files/pintos/src/devices/input.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/src.dir/devices/input.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/input.c.o   -c "/Users/Boris/Nustore Files/pintos/src/devices/input.c"
 
 CMakeFiles/src.dir/devices/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/devices/input.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/devices/input.c" > CMakeFiles/src.dir/devices/input.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/devices/input.c" > CMakeFiles/src.dir/devices/input.c.i
 
 CMakeFiles/src.dir/devices/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/devices/input.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/devices/input.c" -o CMakeFiles/src.dir/devices/input.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/devices/input.c" -o CMakeFiles/src.dir/devices/input.c.s
 
 CMakeFiles/src.dir/devices/input.c.o.requires:
 
@@ -1331,16 +1331,16 @@ CMakeFiles/src.dir/devices/input.c.o.provides.build: CMakeFiles/src.dir/devices/
 
 CMakeFiles/src.dir/devices/intq.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/devices/intq.c.o: ../devices/intq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/src.dir/devices/intq.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/intq.c.o   -c "/Users/borischen/Nustore Files/pintos/src/devices/intq.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/src.dir/devices/intq.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/intq.c.o   -c "/Users/Boris/Nustore Files/pintos/src/devices/intq.c"
 
 CMakeFiles/src.dir/devices/intq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/devices/intq.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/devices/intq.c" > CMakeFiles/src.dir/devices/intq.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/devices/intq.c" > CMakeFiles/src.dir/devices/intq.c.i
 
 CMakeFiles/src.dir/devices/intq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/devices/intq.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/devices/intq.c" -o CMakeFiles/src.dir/devices/intq.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/devices/intq.c" -o CMakeFiles/src.dir/devices/intq.c.s
 
 CMakeFiles/src.dir/devices/intq.c.o.requires:
 
@@ -1355,16 +1355,16 @@ CMakeFiles/src.dir/devices/intq.c.o.provides.build: CMakeFiles/src.dir/devices/i
 
 CMakeFiles/src.dir/devices/kbd.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/devices/kbd.c.o: ../devices/kbd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/src.dir/devices/kbd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/kbd.c.o   -c "/Users/borischen/Nustore Files/pintos/src/devices/kbd.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/src.dir/devices/kbd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/kbd.c.o   -c "/Users/Boris/Nustore Files/pintos/src/devices/kbd.c"
 
 CMakeFiles/src.dir/devices/kbd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/devices/kbd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/devices/kbd.c" > CMakeFiles/src.dir/devices/kbd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/devices/kbd.c" > CMakeFiles/src.dir/devices/kbd.c.i
 
 CMakeFiles/src.dir/devices/kbd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/devices/kbd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/devices/kbd.c" -o CMakeFiles/src.dir/devices/kbd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/devices/kbd.c" -o CMakeFiles/src.dir/devices/kbd.c.s
 
 CMakeFiles/src.dir/devices/kbd.c.o.requires:
 
@@ -1379,16 +1379,16 @@ CMakeFiles/src.dir/devices/kbd.c.o.provides.build: CMakeFiles/src.dir/devices/kb
 
 CMakeFiles/src.dir/devices/partition.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/devices/partition.c.o: ../devices/partition.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/src.dir/devices/partition.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/partition.c.o   -c "/Users/borischen/Nustore Files/pintos/src/devices/partition.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/src.dir/devices/partition.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/partition.c.o   -c "/Users/Boris/Nustore Files/pintos/src/devices/partition.c"
 
 CMakeFiles/src.dir/devices/partition.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/devices/partition.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/devices/partition.c" > CMakeFiles/src.dir/devices/partition.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/devices/partition.c" > CMakeFiles/src.dir/devices/partition.c.i
 
 CMakeFiles/src.dir/devices/partition.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/devices/partition.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/devices/partition.c" -o CMakeFiles/src.dir/devices/partition.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/devices/partition.c" -o CMakeFiles/src.dir/devices/partition.c.s
 
 CMakeFiles/src.dir/devices/partition.c.o.requires:
 
@@ -1403,16 +1403,16 @@ CMakeFiles/src.dir/devices/partition.c.o.provides.build: CMakeFiles/src.dir/devi
 
 CMakeFiles/src.dir/devices/pit.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/devices/pit.c.o: ../devices/pit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/src.dir/devices/pit.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/pit.c.o   -c "/Users/borischen/Nustore Files/pintos/src/devices/pit.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/src.dir/devices/pit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/pit.c.o   -c "/Users/Boris/Nustore Files/pintos/src/devices/pit.c"
 
 CMakeFiles/src.dir/devices/pit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/devices/pit.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/devices/pit.c" > CMakeFiles/src.dir/devices/pit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/devices/pit.c" > CMakeFiles/src.dir/devices/pit.c.i
 
 CMakeFiles/src.dir/devices/pit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/devices/pit.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/devices/pit.c" -o CMakeFiles/src.dir/devices/pit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/devices/pit.c" -o CMakeFiles/src.dir/devices/pit.c.s
 
 CMakeFiles/src.dir/devices/pit.c.o.requires:
 
@@ -1427,16 +1427,16 @@ CMakeFiles/src.dir/devices/pit.c.o.provides.build: CMakeFiles/src.dir/devices/pi
 
 CMakeFiles/src.dir/devices/rtc.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/devices/rtc.c.o: ../devices/rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/src.dir/devices/rtc.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/rtc.c.o   -c "/Users/borischen/Nustore Files/pintos/src/devices/rtc.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/src.dir/devices/rtc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/rtc.c.o   -c "/Users/Boris/Nustore Files/pintos/src/devices/rtc.c"
 
 CMakeFiles/src.dir/devices/rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/devices/rtc.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/devices/rtc.c" > CMakeFiles/src.dir/devices/rtc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/devices/rtc.c" > CMakeFiles/src.dir/devices/rtc.c.i
 
 CMakeFiles/src.dir/devices/rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/devices/rtc.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/devices/rtc.c" -o CMakeFiles/src.dir/devices/rtc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/devices/rtc.c" -o CMakeFiles/src.dir/devices/rtc.c.s
 
 CMakeFiles/src.dir/devices/rtc.c.o.requires:
 
@@ -1451,16 +1451,16 @@ CMakeFiles/src.dir/devices/rtc.c.o.provides.build: CMakeFiles/src.dir/devices/rt
 
 CMakeFiles/src.dir/devices/serial.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/devices/serial.c.o: ../devices/serial.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/src.dir/devices/serial.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/serial.c.o   -c "/Users/borischen/Nustore Files/pintos/src/devices/serial.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/src.dir/devices/serial.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/serial.c.o   -c "/Users/Boris/Nustore Files/pintos/src/devices/serial.c"
 
 CMakeFiles/src.dir/devices/serial.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/devices/serial.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/devices/serial.c" > CMakeFiles/src.dir/devices/serial.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/devices/serial.c" > CMakeFiles/src.dir/devices/serial.c.i
 
 CMakeFiles/src.dir/devices/serial.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/devices/serial.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/devices/serial.c" -o CMakeFiles/src.dir/devices/serial.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/devices/serial.c" -o CMakeFiles/src.dir/devices/serial.c.s
 
 CMakeFiles/src.dir/devices/serial.c.o.requires:
 
@@ -1475,16 +1475,16 @@ CMakeFiles/src.dir/devices/serial.c.o.provides.build: CMakeFiles/src.dir/devices
 
 CMakeFiles/src.dir/devices/shutdown.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/devices/shutdown.c.o: ../devices/shutdown.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/src.dir/devices/shutdown.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/shutdown.c.o   -c "/Users/borischen/Nustore Files/pintos/src/devices/shutdown.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/src.dir/devices/shutdown.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/shutdown.c.o   -c "/Users/Boris/Nustore Files/pintos/src/devices/shutdown.c"
 
 CMakeFiles/src.dir/devices/shutdown.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/devices/shutdown.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/devices/shutdown.c" > CMakeFiles/src.dir/devices/shutdown.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/devices/shutdown.c" > CMakeFiles/src.dir/devices/shutdown.c.i
 
 CMakeFiles/src.dir/devices/shutdown.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/devices/shutdown.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/devices/shutdown.c" -o CMakeFiles/src.dir/devices/shutdown.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/devices/shutdown.c" -o CMakeFiles/src.dir/devices/shutdown.c.s
 
 CMakeFiles/src.dir/devices/shutdown.c.o.requires:
 
@@ -1499,16 +1499,16 @@ CMakeFiles/src.dir/devices/shutdown.c.o.provides.build: CMakeFiles/src.dir/devic
 
 CMakeFiles/src.dir/devices/speaker.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/devices/speaker.c.o: ../devices/speaker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/src.dir/devices/speaker.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/speaker.c.o   -c "/Users/borischen/Nustore Files/pintos/src/devices/speaker.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/src.dir/devices/speaker.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/speaker.c.o   -c "/Users/Boris/Nustore Files/pintos/src/devices/speaker.c"
 
 CMakeFiles/src.dir/devices/speaker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/devices/speaker.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/devices/speaker.c" > CMakeFiles/src.dir/devices/speaker.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/devices/speaker.c" > CMakeFiles/src.dir/devices/speaker.c.i
 
 CMakeFiles/src.dir/devices/speaker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/devices/speaker.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/devices/speaker.c" -o CMakeFiles/src.dir/devices/speaker.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/devices/speaker.c" -o CMakeFiles/src.dir/devices/speaker.c.s
 
 CMakeFiles/src.dir/devices/speaker.c.o.requires:
 
@@ -1523,16 +1523,16 @@ CMakeFiles/src.dir/devices/speaker.c.o.provides.build: CMakeFiles/src.dir/device
 
 CMakeFiles/src.dir/devices/timer.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/devices/timer.c.o: ../devices/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/src.dir/devices/timer.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/timer.c.o   -c "/Users/borischen/Nustore Files/pintos/src/devices/timer.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/src.dir/devices/timer.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/timer.c.o   -c "/Users/Boris/Nustore Files/pintos/src/devices/timer.c"
 
 CMakeFiles/src.dir/devices/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/devices/timer.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/devices/timer.c" > CMakeFiles/src.dir/devices/timer.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/devices/timer.c" > CMakeFiles/src.dir/devices/timer.c.i
 
 CMakeFiles/src.dir/devices/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/devices/timer.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/devices/timer.c" -o CMakeFiles/src.dir/devices/timer.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/devices/timer.c" -o CMakeFiles/src.dir/devices/timer.c.s
 
 CMakeFiles/src.dir/devices/timer.c.o.requires:
 
@@ -1547,16 +1547,16 @@ CMakeFiles/src.dir/devices/timer.c.o.provides.build: CMakeFiles/src.dir/devices/
 
 CMakeFiles/src.dir/devices/vga.c.o: CMakeFiles/src.dir/flags.make
 CMakeFiles/src.dir/devices/vga.c.o: ../devices/vga.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/src.dir/devices/vga.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/vga.c.o   -c "/Users/borischen/Nustore Files/pintos/src/devices/vga.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/src.dir/devices/vga.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.dir/devices/vga.c.o   -c "/Users/Boris/Nustore Files/pintos/src/devices/vga.c"
 
 CMakeFiles/src.dir/devices/vga.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.dir/devices/vga.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/borischen/Nustore Files/pintos/src/devices/vga.c" > CMakeFiles/src.dir/devices/vga.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/Boris/Nustore Files/pintos/src/devices/vga.c" > CMakeFiles/src.dir/devices/vga.c.i
 
 CMakeFiles/src.dir/devices/vga.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.dir/devices/vga.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/borischen/Nustore Files/pintos/src/devices/vga.c" -o CMakeFiles/src.dir/devices/vga.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/Boris/Nustore Files/pintos/src/devices/vga.c" -o CMakeFiles/src.dir/devices/vga.c.s
 
 CMakeFiles/src.dir/devices/vga.c.o.requires:
 
@@ -1703,7 +1703,7 @@ src: CMakeFiles/src.dir/devices/timer.c.o
 src: CMakeFiles/src.dir/devices/vga.c.o
 src: CMakeFiles/src.dir/build.make
 src: CMakeFiles/src.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Linking C executable src"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Linking C executable src"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/src.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1782,6 +1782,6 @@ CMakeFiles/src.dir/clean:
 .PHONY : CMakeFiles/src.dir/clean
 
 CMakeFiles/src.dir/depend:
-	cd "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/borischen/Nustore Files/pintos/src" "/Users/borischen/Nustore Files/pintos/src" "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug" "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug" "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/src.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/Boris/Nustore Files/pintos/src" "/Users/Boris/Nustore Files/pintos/src" "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug" "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug" "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/src.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/src.dir/depend
 

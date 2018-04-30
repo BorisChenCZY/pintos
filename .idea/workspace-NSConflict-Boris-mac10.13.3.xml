@@ -12,51 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a1ce97-b90a-435a-abf9-5ef328e0355f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/lib/arithmetic.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/lib/random.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/src.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/threads/Make.tests" beforeDir="false" afterPath="$PROJECT_DIR$/tests/threads/Make.tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/threads/tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/tests/threads/tests.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/threads/synch.c" beforeDir="false" afterPath="$PROJECT_DIR$/threads/synch.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/threads/thread.c" beforeDir="false" afterPath="$PROJECT_DIR$/threads/thread.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Makefile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +30,7 @@
       <file leaf-file-name="synch.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threads/synch.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2375">
+            <state relative-caret-position="460">
               <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
             </state>
           </provider>
@@ -81,30 +39,21 @@
       <file leaf-file-name="timer.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/devices/timer.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="336">
               <caret line="180" column="14" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thread.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="thread.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/threads/thread.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="435" column="23" selection-start-line="435" selection-start-column="13" selection-end-line="435" selection-end-column="23" />
+            <state relative-caret-position="205">
+              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding>
                 <element signature="e#4865#4917#0" expanded="true" />
-                <marker date="1525083455000" expanded="true" signature="21568:21776" ph="..." />
+                <marker date="1525053289000" expanded="true" signature="21446:21667" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -127,11 +76,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="list.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/kernel/list.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="102" column="62" selection-start-line="102" selection-start-column="62" selection-end-line="102" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="alarm-priority.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/threads/alarm-priority.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="449">
-              <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+              <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -145,20 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/kernel/list.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="71" column="28" lean-forward="true" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="alarm-priority.ck" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/threads/alarm-priority.ck">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -167,10 +116,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>wake up</find>
+      <find>thread_yield(</find>
       <find>Boris</find>
       <find>print_st</find>
       <find>thread_running</find>
       <find>thread_unblo</find>
+      <find>thread_tick(</find>
       <find>timer_ticks</find>
       <find>yield_on_return</find>
       <find>thread_block</find>
@@ -191,12 +143,9 @@
       <find>is_thread</find>
       <find>acquire</find>
       <find>set_pri</find>
+      <find>sema_up</find>
       <find>thread_tick</find>
       <find>boris</find>
-      <find>intr</find>
-      <find>sema_up</find>
-      <find>thread_tick(</find>
-      <find>list_begin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,6 +156,7 @@
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch._1.txt" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch._2.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/threads/interrupt.c" />
         <option value="$PROJECT_DIR$/devices/timer.h" />
         <option value="$PROJECT_DIR$/devices/timer.c" />
@@ -216,9 +166,7 @@
         <option value="$PROJECT_DIR$/threads/thread.h" />
         <option value="$PROJECT_DIR$/threads/synch.c" />
         <option value="$PROJECT_DIR$/tests/threads/alarm-priority.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/threads/thread.c" />
-        <option value="$PROJECT_DIR$/lib/kernel/list.c" />
       </list>
     </option>
   </component>
@@ -266,7 +214,7 @@
     <property name="SearchEverywhereHistoryKey" value="thread_yield&#9;null&#9;null&#10;switch_threads&#9;null&#9;null&#10;TIME&#9;null&#9;null&#10;thread_print_stats&#9;null&#9;null&#10;sleep_list&#9;null&#9;null&#10;ticks&#9;ACTION&#9;EditorToggleStickySelection&#10;timer_interrupt&#9;null&#9;null&#10;ready_list&#9;null&#9;null&#10;list_init&#9;null&#9;null&#10;timer_t&#9;null&#9;null&#10;pg_round_down&#9;null&#9;null&#10;FLAG_IF&#9;null&#9;null&#10;intr_yield_on_return&#9;null&#9;null&#10;INTR_ON&#9;null&#9;null&#10;timer_inter&#9;null&#9;null&#10;timer_in&#9;null&#9;null&#10;timer_sleep&#9;null&#9;null&#10;timer&#9;FILE&#9;file://E:/pintos/src/devices/timer.c" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="CMake" />
-    <property name="last_opened_file_path" value="E:/AI/Lab3IMP/AI_IMP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -326,12 +274,11 @@
       <workItem from="1525023768150" duration="3177000" />
       <workItem from="1525030403936" duration="163000" />
       <workItem from="1525030751121" duration="14000" />
-      <workItem from="1525053884827" duration="1331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100143000" />
+    <option name="totallyTimeSpent" value="97389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,10 +290,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="22" width="1920" height="1057" extended-state="0" />
+    <frame x="-1920" y="22" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.3757764" visible="true" weight="0.1790416" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.871118" visible="true" weight="0.1790416" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3283582" />
       <window_info anchor="bottom" id="CMake" order="1" weight="0.32608697" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -354,8 +301,8 @@
       <window_info anchor="bottom" id="File Transfer" order="0" weight="0.32708332" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" id="Structure" order="2" sideWeight="0.6242236" side_tool="true" visible="true" weight="0.1790416" />
-      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32916668" />
+      <window_info id="Structure" order="2" sideWeight="0.12888199" side_tool="true" visible="true" weight="0.1790416" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -388,8 +335,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/threads/thread.c</url>
-          <line>128</line>
+          <url />
+          <line>124</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
@@ -600,6 +547,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/devices/timer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -611,6 +565,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/kernel/list.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2505">
+          <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -656,10 +617,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/devices/timer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="180" column="14" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/synch.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/threads/alarm-priority.ck">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -673,46 +648,18 @@
     <entry file="file://$PROJECT_DIR$/tests/threads/alarm-priority.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devices/timer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="180" column="14" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threads/synch.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2375">
-          <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
+          <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/threads/thread.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="435" column="23" selection-start-line="435" selection-start-column="13" selection-end-line="435" selection-end-column="23" />
+        <state relative-caret-position="205">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding>
             <element signature="e#4865#4917#0" expanded="true" />
-            <marker date="1525083455000" expanded="true" signature="21568:21776" ph="..." />
+            <marker date="1525053289000" expanded="true" signature="21446:21667" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/kernel/list.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="71" column="28" lean-forward="true" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
         </state>
       </provider>
     </entry>
