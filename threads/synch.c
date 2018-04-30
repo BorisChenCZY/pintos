@@ -33,6 +33,7 @@
 #include "threads/thread.h"
 #include "thread.h"
 #include "synch.h"
+#include "interrupt.h"
 
 /* Initializes semaphore SEMA to VALUE.  A semaphore is a
    nonnegative integer along with two atomic operators for
@@ -74,6 +75,9 @@ sema_down(struct semaphore *sema) {
         //[Boris] change list_push_back to list_insert_ordered
 //        list_push_back(&sema->waiters, &thread_current()->elem);
         list_insert_ordered(&sema->waiters, &thread_current()->elem, ascending_on_priority_and_lexicographical, NULL);
+//        printf("\nsema %s, %d\n", elem_to_thread(list_begin(&sema->waiters))->name, elem_to_thread(list_begin(&sema->waiters))->priority);
+//        printf("\nsema %s, %d\n", elem_to_thread(list_next(list_begin(&sema->waiters)))->name, elem_to_thread(list_next(list_begin(&sema->waiters)))->priority);
+//        show_ready_list();
         thread_block();
     }
     sema->value--;
@@ -115,20 +119,29 @@ sema_up(struct semaphore *sema) {
     ASSERT(sema != NULL);
 
     old_level = intr_disable();
-    if (!list_empty(&sema->waiters))
+//    printf("todo");
+    if (!list_empty(&sema->waiters)) {
+//        printf("tring to unblock");
         thread_unblock(list_entry(list_pop_front(&sema->waiters),
-    struct thread, elem));
-    sema->value++;
-//    thread_yield();
-    //[Boris] here is when the lock is returned. We have to return priority back and check preempt()
-    struct thread *cur = thread_current();
-    for(int i = 63; i >= 0; i--){
-        if(cur->priority_list[i] != 0){
-            cur->priority = cur->priority_list[i]--;
-            break;
-        }
+        struct thread, elem));
     }
-    check_preempt();
+    sema->value++;
+
+    //[Boris] here is when the lock is returned. We have to return priority back and check preempt()
+//    struct thread *cur = thread_current();
+//    for(int i = 63; i >= 0; i--){
+//        if(cur->priority_list[i] != 0){
+//            cur->priority_list[i]--;
+////            cur->priority = i;
+////            printf("\n%s current priority is %d, it releases\n", cur->name, cur->priority);
+////            printf("%d\n", cur->priority_list[i]);
+////            show_ready_list();
+//            printf("\nreturns %s: %d -> %d \n", cur->name, cur->priority, i);
+//            thread_set_priority(i);
+//            break;
+//        }
+//    }
+//    check_preempt();
     intr_set_level(old_level);
 
 }
@@ -186,6 +199,7 @@ lock_init(struct lock *lock) {
     ASSERT(lock != NULL);
 
     lock->holder = NULL;
+    lock->donated = 0;
     sema_init(&lock->semaphore, 1);
 }
 
@@ -205,8 +219,8 @@ lock_acquire(struct lock *lock) {
 
     // [Boris] check lock holder. If there is a holder, then donate priority and reschedule.
 //    printf("hello");
-    if(lock->semaphore.value <= 0){
-        ASSERT(lock->holder!=NULL);
+    if(lock->semaphore.value <= 0 && lock->holder != NULL){
+        ASSERT(lock->holder!=NULL); //todo here may be bug
 //        printf("------");
 //        printf(lock->holder->status);
 //        printf("%d", THREAD_READY == lock->holder->status);
@@ -214,13 +228,21 @@ lock_acquire(struct lock *lock) {
 //        ASSERT(lock->holder->priority < thread_current()->priority); todo more situation to consider
 //        printf(lock->holder->priority);
         if(lock->holder->priority < thread_current()->priority) {
-            lock->holder->priority = thread_current()->priority;
+//            printf("acquire");
+//            printf("\ndonates, %s -> %s\n", thread_name(), lock->holder->name);
             lock->holder->priority_list[lock->holder->priority]++;
+//            printf("\nsaved priority: %d\n", lock->holder->priority_list[31]);
+            lock->holder->priority = thread_current()->priority;
+            lock->donated++;
         }
 
     }
     sema_down(&lock->semaphore);
     lock->holder = thread_current();
+//    enum intr_level before;
+//    before = intr_disable();
+//    printf("\nlock is held by %s\n", thread_name());
+//    intr_set_level(before);
 }
 
 /* Tries to acquires LOCK and returns true if successful or false
@@ -254,14 +276,21 @@ lock_release(struct lock *lock) {
 
     lock->holder = NULL;
     //[Boris] check whether there is unreturned donated priority. If there is any, return it.
-//    for(int i = 63; i >= 64; i++) {
-//        if (thread_current()->priority_list[i]) {
-//            thread_current()->priority = i;
-//            thread_current()->priority_list[i]--;
-//        }
-//    }
+    if(lock->donated) {
+        for (int i = 63; i >= 0; i--) {
+//            printf("数字%d(%d)\n", thread_current()->priority_list[i], i);
+            if (thread_current()->priority_list[i]) {
+                thread_current()->priority = i;
+                thread_current()->priority_list[i]--;
+//                printf("现在优先级是%d\n", thread_current()->priority_list[31]);
+//                printf("现在优先级是%d\n", i);
+//                break;
+            }
+        }
+    }
 
     sema_up(&lock->semaphore);
+    check_preempt();
 }
 
 /* Returns true if the current thread holds LOCK, false

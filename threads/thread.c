@@ -32,15 +32,13 @@
 static struct list ready_list;
 
 //[Boris] todo
-inline struct thread* first_of_ready_list(){
-    struct thread* cur =  list_entry(list_begin(&ready_list), struct thread, elem);
+inline struct thread *first_of_ready_list() {
+    struct thread *cur = list_entry(list_begin(&ready_list), struct thread, elem);
 //    ASSERT(is_thread(cur));
     return cur;
 };
 
-inline struct thread* elem_to_thread(struct list_elem* element){
-    return list_entry(element, struct thread, elem);
-}
+
 
 /* List of processes in sleep. */
 static struct list sleep_list;
@@ -183,7 +181,7 @@ thread_tick(void) {
     /* Enforce preemption. */
     if (++thread_ticks >= t->origin_priority % 7 + 20) {
 //        printf("HRER");
-        if (strcmp(t->name, "main")!=0)
+        if (strcmp(t->name, "main") != 0)
             t->priority = max(t->priority - 3, 0);
         intr_yield_on_return();
     }
@@ -288,8 +286,14 @@ thread_unblock(struct thread *t) {
     ASSERT(t->status == THREAD_BLOCKED);
     //[Boris]
 //    list_push_back(&ready_list, &t->elem);
+//    if (strcmp(t->name, "idle") && strcmp(t->name, "main"))
+//        printf("\nunblocking %s, priotity %d\n", t->name, t->priority);
+//    printf("\n%d\n", list_empty(&ready_list));
     list_insert_ordered(&ready_list, &t->elem, ascending_on_priority_and_lexicographical, NULL);
     t->status = THREAD_READY;
+//    printf("\ngood but %s(%d)\n", first_of_ready_list()->name, first_of_ready_list()->priority);
+//    if (strcmp(t->name, "idle") && strcmp(t->name, "main"))
+//        show_ready_list();
 //    printf("priority: %d is the first\n", list_entry(list_begin(&ready_list), struct thread, elem)->priority);
     intr_set_level(old_level);
 }
@@ -415,8 +419,7 @@ void wait_for_wake(void) {
             e = list_next(e);
 //            t = list_entry (e, struct thread, slpelem);
             list_remove(list_prev(e));
-            if(t->priority > thread_current()->priority)
-            {
+            if (t->priority > thread_current()->priority) {
                 intr_yield_on_return();
             }
         } else {
@@ -424,7 +427,7 @@ void wait_for_wake(void) {
         }
     }
 
-        intr_set_level(old_level);
+    intr_set_level(old_level);
 }
 
 /* Invoke function 'func' on all threads, passing along 'aux'.
@@ -451,6 +454,7 @@ thread_set_priority(int new_priority) {
     // if true, pre.
     // if false, pass.
 
+//    printf("\n%s(%d) -> %s(%d)\n", thread_current()->name, thread_get_priority(), first_of_ready_list()->name, first_of_ready_list()->priority);
     check_preempt();
 }
 
@@ -690,23 +694,32 @@ uint32_t thread_stack_ofs = offsetof (struct thread, stack);
 //[Boris] check whether there is posiblity to preempt.
 // There are four situations that may call this function. Check the document for details.
 void
-check_preempt(){
-    struct thread * cur = thread_current();
-    struct thread * rdy_fst = first_of_ready_list();
-    if(cur->priority < rdy_fst->priority){ //preempty
+check_preempt() {
+    struct thread *cur = thread_current();
+    struct thread *rdy_fst = first_of_ready_list();
+    if (cur->priority < rdy_fst->priority) { //preempty
+//        enum intr_level before = intr_disable();
+//        printf("current priority is %d(%s), is going to change to %d(%s)\n", cur->priority, cur->name, rdy_fst->priority, rdy_fst->name);
+//        printf("%s -> %s", cur->name, rdy_fst->name);
+//        printf("changed!");
+//        msg("changed");
         thread_yield();
+//        intr_set_level(before);
     }
 }
 
 
 // [Boris] the following code is used for debugging
-static void
-show_ready_list(){
-   enum intr_level before = intr_disable();
-   struct list_elem* cur = list_begin(&ready_list);
-   while(cur != list_end(&ready_list)){
-       struct thread* tmp = elem_to_thread(cur);
-       printf("(%s, %d) ->", tmp->name, tmp->priority);
-   }
-   intr_set_level(before);
+void
+show_ready_list() {
+    enum intr_level before = intr_disable();
+    struct list_elem *cur = list_begin(&ready_list);
+    printf("begin->");
+    while (cur != list_end(&ready_list)) {
+        struct thread *tmp = elem_to_thread(cur);
+        printf("(%s, %d) ->", tmp->name, tmp->priority);
+        cur = list_next(cur);
+    }
+    printf("end\n");
+    intr_set_level(before);
 }

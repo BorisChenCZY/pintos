@@ -157,5 +157,11 @@ int thread_get_recent_cpu (void);
 int thread_get_load_avg (void);
 inline int max(int a, int b) {return a > b? a:b;};
 void check_preempt();
+void
+show_ready_list();
+
+inline struct thread *elem_to_thread(struct list_elem *element) {
+    return list_entry(element, struct thread, elem);
+}
 
 #endif /* threads/thread.h */
