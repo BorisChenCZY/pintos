@@ -250,6 +250,7 @@ thread_create(const char *name, int priority,
 
     /* Add to run queue. */
     thread_unblock(t);
+    check_preempt();
 
     return tid;
 }
@@ -285,6 +286,7 @@ thread_unblock(struct thread *t) {
 
     old_level = intr_disable();
     ASSERT(t->status == THREAD_BLOCKED);
+    //[Boris]
 //    list_push_back(&ready_list, &t->elem);
     list_insert_ordered(&ready_list, &t->elem, ascending_on_priority_and_lexicographical, NULL);
     t->status = THREAD_READY;
@@ -448,7 +450,8 @@ thread_set_priority(int new_priority) {
     //[Boris] todo check if it's necessary to preempt.
     // if true, pre.
     // if false, pass.
-    thread_yield();
+
+    check_preempt();
 }
 
 /* Returns the current thread's priority. */
@@ -687,8 +690,7 @@ static void
 check_preempt(void){
     struct thread * cur = thread_current();
     struct thread * rdy_fst = first_of_ready_list();
-    if(cur->priority < rdy_fst->priority){ //preempty
-
+    if(cur->priority <= rdy_fst->priority){ //preempty
         thread_yield();
     }
 }

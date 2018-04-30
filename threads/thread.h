@@ -156,6 +156,7 @@ void thread_set_nice (int);
 int thread_get_recent_cpu (void);
 int thread_get_load_avg (void);
 inline int max(int a, int b) {return a > b? a:b;};
-
+static void
+check_preempt(void);
 
 #endif /* threads/thread.h */
