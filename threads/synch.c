@@ -72,12 +72,13 @@ sema_down(struct semaphore *sema) {
 //        struct thread *rdy_fst =
 //        if(cur_thrd->priority )
         //[Boris] change list_push_back to list_insert_ordered
-        list_push_back(&sema->waiters, &thread_current()->elem);
-//        list_insert_ordered(&sema->waiters, &thread_current()->elem, ascending_on_priority_and_lexicographical, NULL);
+//        list_push_back(&sema->waiters, &thread_current()->elem);
+        list_insert_ordered(&sema->waiters, &thread_current()->elem, ascending_on_priority_and_lexicographical, NULL);
         thread_block();
     }
     sema->value--;
     intr_set_level(old_level);
+    check_preempt();
 }
 
 /* Down or "P" operation on a semaphore, but only if the
@@ -119,6 +120,15 @@ sema_up(struct semaphore *sema) {
     struct thread, elem));
     sema->value++;
 //    thread_yield();
+    //[Boris] here is when the lock is returned. We have to return priority back and check preempt()
+    struct thread *cur = thread_current();
+    for(int i = 63; i >= 0; i--){
+        if(cur->priority_list[i] != 0){
+            cur->priority = cur->priority_list[i]--;
+            break;
+        }
+    }
+    check_preempt();
     intr_set_level(old_level);
 
 }
@@ -195,19 +205,20 @@ lock_acquire(struct lock *lock) {
 
     // [Boris] check lock holder. If there is a holder, then donate priority and reschedule.
 //    printf("hello");
-//    if(lock->semaphore.value <= 0 && lock->holder != NULL){
+    if(lock->semaphore.value <= 0){
+        ASSERT(lock->holder!=NULL);
 //        printf("------");
-////        printf(lock->holder->status);
+//        printf(lock->holder->status);
 //        printf("%d", THREAD_READY == lock->holder->status);
 //        printf("------\n");
-////        ASSERT(lock->holder->priority < thread_current()->priority); todo more situation to consider
-////        printf(lock->holder->priority);
-////        if(lock->holder->priority < thread_current()->priority) {
-////            lock->holder->priority = thread_current()->priority;
-//            lock->holder->priority_list[lock->holder->priority]++;
-//        }
-//
-//    }
+//        ASSERT(lock->holder->priority < thread_current()->priority); todo more situation to consider
+//        printf(lock->holder->priority);
+        if(lock->holder->priority < thread_current()->priority) {
+            lock->holder->priority = thread_current()->priority;
+            lock->holder->priority_list[lock->holder->priority]++;
+        }
+
+    }
     sema_down(&lock->semaphore);
     lock->holder = thread_current();
 }

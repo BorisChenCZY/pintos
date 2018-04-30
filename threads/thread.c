@@ -686,11 +686,14 @@ allocate_tid(void) {
    Used by switch.S, which can't figure it out on its own. */
 uint32_t thread_stack_ofs = offsetof (struct thread, stack);
 //
-static void
-check_preempt(void){
+
+//[Boris] check whether there is posiblity to preempt.
+// There are four situations that may call this function. Check the document for details.
+void
+check_preempt(){
     struct thread * cur = thread_current();
     struct thread * rdy_fst = first_of_ready_list();
-    if(cur->priority <= rdy_fst->priority){ //preempty
+    if(cur->priority < rdy_fst->priority){ //preempty
         thread_yield();
     }
 }
