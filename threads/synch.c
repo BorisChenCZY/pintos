@@ -187,6 +187,25 @@ lock_init(struct lock *lock) {
    interrupt handler.  This function may be called with
    interrupts disabled, but interrupts will be turned back on if
    we need to sleep. */
+void donate_by_chain(struct lock *lock, int priority) {
+    if(lock == NULL) return;
+    enum intr_level before = intr_disable();
+    struct lock *cur = lock;
+//    while (cur->holder->waiting_lock != NULL) {
+//        printf("cur is %s\n", cur->holder->name);
+//        cur->holder->priority = priority;
+//        printf("%s is donating %d to %s\n", thread_name(), priority, cur->holder->name);
+//        printf("%s has %d\n", cur->holder->name, cur->holder->priority);
+//        cur = cur->holder->waiting_lock;
+//        printf("%s has %d\n", cur->holder->name, cur->holder->priority);
+//        printf("%d\n", cur != NULL);
+//    }
+//    printf("%s passed\n", cur->holder->name);
+    cur->holder->priority = priority;
+    donate_by_chain(cur->holder->waiting_lock, priority);
+    intr_set_level(before);
+}
+
 void
 lock_acquire(struct lock *lock) {
     ASSERT(lock != NULL);
@@ -195,16 +214,21 @@ lock_acquire(struct lock *lock) {
 
     // [Boris] check lock holder. If there is a holder, then donate priority and reschedule.
 //    printf("hello");
-    if (lock->semaphore.value <= 0 && lock->holder != NULL) {
+    enum intr_level before = intr_disable();
+    if (lock->semaphore.value <= 0) {
         ASSERT(lock->holder != NULL); //todo here may be bug
         if (lock->holder->priority < thread_current()->priority) {
+            thread_current()->waiting_lock = lock;
             lock->holder->priority = thread_current()->priority;
+            donate_by_chain(thread_current()->waiting_lock, thread_get_priority());
             lock->donated = thread_get_priority();
         }
 
     }
+    intr_set_level(before);
     sema_down(&lock->semaphore);
     lock->holder = thread_current();
+    thread_current()->waiting_lock = NULL;
     list_push_back(&thread_current()->locks, &lock->reelem);
 //    enum intr_level before;
 //    before = intr_disable();
@@ -244,21 +268,21 @@ lock_release(struct lock *lock) {
     lock->holder = NULL;
     //[Boris] check whether there is unreturned donated priority. If there is any, return it.
     list_remove(&lock->reelem);
-    if(list_empty(&thread_current()->locks)){
+    if (list_empty(&thread_current()->locks)) {
         thread_current()->priority = thread_current()->origin_priority;
-    }else{
+    } else {
         int max = thread_current()->origin_priority;
         struct list_elem *e;
-        for (e = list_begin (&thread_current()->locks); e != list_end (&thread_current()->locks);
-             e = list_next (e))
-        {
+        for (e = list_begin(&thread_current()->locks); e != list_end(&thread_current()->locks);
+             e = list_next(e)) {
             struct lock *f = list_entry (e, struct lock, reelem);
-            if(f->donated > max){
+            if (f->donated > max) {
                 max = f->donated;
             }
         }
 
         thread_current()->priority = max;
+//        printf("%s is returning to %d", thread_name(), max);
     }
 
     sema_up(&lock->semaphore);

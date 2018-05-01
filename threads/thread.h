@@ -114,6 +114,7 @@ struct thread
     // struct list priorities; //!!!ABANDON for now
     int origin_priority;
     struct list locks;
+    struct lock *waiting_lock;
   };
 
 /* If false (default), use round-robin scheduler.
