@@ -4,6 +4,9 @@ project(src)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
 
+include_directories("lib"
+                    "lib/kernel")
+
 file(GLOB SOURCES "lib/*.c"
         "filesys/*.c"
         "threads/*.c"

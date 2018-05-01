@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = -I"/Users/borischen/Nustore Files/pintos/src/lib" -I"/Users/borischen/Nustore Files/pintos/src/lib/kernel" 
 

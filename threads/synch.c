@@ -69,20 +69,12 @@ sema_down(struct semaphore *sema) {
     old_level = intr_disable();
     while (sema->value == 0) {
         // check priority
-//        struct thread *cur_thrd = thread_current();
-//        struct thread *rdy_fst =
-//        if(cur_thrd->priority )
-        //[Boris] change list_push_back to list_insert_ordered
-//        list_push_back(&sema->waiters, &thread_current()->elem);
         list_insert_ordered(&sema->waiters, &thread_current()->elem, ascending_on_priority_and_lexicographical, NULL);
-//        printf("\nsema %s, %d\n", elem_to_thread(list_begin(&sema->waiters))->name, elem_to_thread(list_begin(&sema->waiters))->priority);
-//        printf("\nsema %s, %d\n", elem_to_thread(list_next(list_begin(&sema->waiters)))->name, elem_to_thread(list_next(list_begin(&sema->waiters)))->priority);
-//        show_ready_list();
         thread_block();
     }
+//    check_preempt();
     sema->value--;
     intr_set_level(old_level);
-    check_preempt();
 }
 
 /* Down or "P" operation on a semaphore, but only if the
@@ -117,31 +109,15 @@ sema_up(struct semaphore *sema) {
     enum intr_level old_level;
 
     ASSERT(sema != NULL);
-
+//    msg("entering");
     old_level = intr_disable();
-//    printf("todo");
+
     if (!list_empty(&sema->waiters)) {
-//        printf("tring to unblock");
         thread_unblock(list_entry(list_pop_front(&sema->waiters),
-        struct thread, elem));
+                                  struct thread, elem));
     }
     sema->value++;
-
-    //[Boris] here is when the lock is returned. We have to return priority back and check preempt()
-//    struct thread *cur = thread_current();
-//    for(int i = 63; i >= 0; i--){
-//        if(cur->priority_list[i] != 0){
-//            cur->priority_list[i]--;
-////            cur->priority = i;
-////            printf("\n%s current priority is %d, it releases\n", cur->name, cur->priority);
-////            printf("%d\n", cur->priority_list[i]);
-////            show_ready_list();
-//            printf("\nreturns %s: %d -> %d \n", cur->name, cur->priority, i);
-//            thread_set_priority(i);
-//            break;
-//        }
-//    }
-//    check_preempt();
+    check_preempt();
     intr_set_level(old_level);
 
 }
@@ -219,9 +195,9 @@ lock_acquire(struct lock *lock) {
 
     // [Boris] check lock holder. If there is a holder, then donate priority and reschedule.
 //    printf("hello");
-    if(lock->semaphore.value <= 0 && lock->holder != NULL){
-        ASSERT(lock->holder!=NULL); //todo here may be bug
-        if(lock->holder->priority < thread_current()->priority) {
+    if (lock->semaphore.value <= 0 && lock->holder != NULL) {
+        ASSERT(lock->holder != NULL); //todo here may be bug
+        if (lock->holder->priority < thread_current()->priority) {
             lock->holder->priority = thread_current()->priority;
             lock->donated++;
         }
@@ -266,7 +242,7 @@ lock_release(struct lock *lock) {
 
     lock->holder = NULL;
     //[Boris] check whether there is unreturned donated priority. If there is any, return it.
-    if(lock->donated) {
+    if (lock->donated) {
         for (int i = 63; i >= 0; i--) {
 //            printf("数字%d(%d)\n", thread_current()->priority_list[i], i);
 //            if (thread_current()->priority_list[i]) {
@@ -361,7 +337,7 @@ cond_signal(struct condition *cond, struct lock *lock UNUSED) {
 
     if (!list_empty(&cond->waiters))
         sema_up(&list_entry(list_pop_front(&cond->waiters),
-    struct semaphore_elem, elem)->semaphore);
+                            struct semaphore_elem, elem)->semaphore);
 }
 
 /* Wakes up all threads, if any, waiting on COND (protected by
