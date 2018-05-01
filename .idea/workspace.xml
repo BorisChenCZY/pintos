@@ -13,9 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="58a1ce97-b90a-435a-abf9-5ef328e0355f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/threads/priority-sema.c" beforeDir="false" afterPath="$PROJECT_DIR$/tests/threads/priority-sema.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads/synch.c" beforeDir="false" afterPath="$PROJECT_DIR$/threads/synch.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threads/thread.c" beforeDir="false" afterPath="$PROJECT_DIR$/threads/thread.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threads/thread.h" beforeDir="false" afterPath="$PROJECT_DIR$/threads/thread.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +27,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="synch.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="synch.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threads/synch.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+            <state relative-caret-position="-1747">
+              <caret line="91" column="30" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -41,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/tests/threads/priority-sema.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="630">
-              <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+              <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -54,7 +53,7 @@
       <file leaf-file-name="priority-donate-one.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/threads/priority-donate-one.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179" />
+            <state relative-caret-position="-495" />
           </provider>
         </entry>
       </file>
@@ -89,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thread.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="thread.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/threads/thread.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="388">
+              <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
               <folding>
                 <element signature="e#4250#4346#0" expanded="true" />
               </folding>
@@ -150,9 +149,9 @@
       <find>lock_release</find>
       <find>lock_rela</find>
       <find>lock_init</find>
+      <find>sema_down</find>
       <find>sema_up</find>
       <find>ready_list</find>
-      <find>sema_down</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,12 +171,12 @@
         <option value="$PROJECT_DIR$/threads/interrupt.c" />
         <option value="$PROJECT_DIR$/threads/interrupt.h" />
         <option value="$PROJECT_DIR$/tests/threads/priority-donate-multiple.c" />
-        <option value="$PROJECT_DIR$/threads/thread.h" />
         <option value="$PROJECT_DIR$/threads/thread.c" />
         <option value="$PROJECT_DIR$/threads/synch.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/tests/threads/priority-sema.c" />
         <option value="$PROJECT_DIR$/threads/synch.c" />
+        <option value="$PROJECT_DIR$/threads/thread.h" />
       </list>
     </option>
   </component>
@@ -312,7 +311,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113167000" />
+    <option name="totallyTimeSpent" value="114160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,11 +333,11 @@
       <window_info anchor="bottom" id="File Transfer" order="0" weight="0.32708332" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32916668" />
       <window_info anchor="right" id="Remote Host" order="4" weight="0.32960597" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.79791665" visible="true" weight="0.18104367" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.79813665" visible="true" weight="0.18104367" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3283582" />
-      <window_info id="Structure" order="2" sideWeight="0.20208333" side_tool="true" visible="true" weight="0.18104367" />
+      <window_info id="Structure" order="2" sideWeight="0.20186335" side_tool="true" visible="true" weight="0.18104367" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -619,17 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threads/thread.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="574" column="14" selection-start-line="574" selection-start-column="14" selection-end-line="574" selection-end-column="14" />
-          <folding>
-            <element signature="e#5061#5113#0" expanded="true" />
-            <element signature="e#10627#10643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threads/synch.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -654,16 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threads/thread.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="e#4250#4346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -678,22 +656,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/threads/synch.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1747">
+          <caret line="91" column="30" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/threads/priority-donate-one.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179" />
+        <state relative-caret-position="-495" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/threads/priority-sema.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
-          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threads/synch.c">
+    <entry file="file://$PROJECT_DIR$/threads/thread.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="574" column="14" selection-start-line="574" selection-start-column="14" selection-end-line="574" selection-end-column="14" />
+          <folding>
+            <element signature="e#5061#5113#0" expanded="true" />
+            <element signature="e#10627#10643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/thread.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+          <folding>
+            <element signature="e#4250#4346#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -113,7 +113,7 @@ struct thread
     //[Boris] structure change
     // struct list priorities; //!!!ABANDON for now
     int origin_priority;
-    struct list donation_received;
+    struct list locks;
   };
 
 /* If false (default), use round-robin scheduler.
