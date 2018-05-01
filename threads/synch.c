@@ -199,12 +199,13 @@ lock_acquire(struct lock *lock) {
         ASSERT(lock->holder != NULL); //todo here may be bug
         if (lock->holder->priority < thread_current()->priority) {
             lock->holder->priority = thread_current()->priority;
-            lock->donated++;
+            lock->donated = thread_get_priority();
         }
 
     }
     sema_down(&lock->semaphore);
     lock->holder = thread_current();
+    list_push_back(&thread_current()->locks, &lock->reelem);
 //    enum intr_level before;
 //    before = intr_disable();
 //    printf("\nlock is held by %s\n", thread_name());
@@ -242,20 +243,26 @@ lock_release(struct lock *lock) {
 
     lock->holder = NULL;
     //[Boris] check whether there is unreturned donated priority. If there is any, return it.
-    if (lock->donated) {
-        for (int i = 63; i >= 0; i--) {
-//            printf("数字%d(%d)\n", thread_current()->priority_list[i], i);
-//            if (thread_current()->priority_list[i]) {
-//                thread_current()->priority = i;
-//                thread_current()->priority_list[i]--;
-//                printf("现在优先级是%d\n", thread_current()->priority_list[31]);
-//                printf("现在优先级是%d\n", i);
-//                break;
-//            }
+    list_remove(&lock->reelem);
+    if(list_empty(&thread_current()->locks)){
+        thread_current()->priority = thread_current()->origin_priority;
+    }else{
+        int max = thread_current()->origin_priority;
+        struct list_elem *e;
+        for (e = list_begin (&thread_current()->locks); e != list_end (&thread_current()->locks);
+             e = list_next (e))
+        {
+            struct lock *f = list_entry (e, struct lock, reelem);
+            if(f->donated > max){
+                max = f->donated;
+            }
         }
+
+        thread_current()->priority = max;
     }
 
     sema_up(&lock->semaphore);
+    lock->donated = list_entry(list_begin(&lock->semaphore.waiters), struct thread, elem)->priority;
     check_preempt();
 }
 
