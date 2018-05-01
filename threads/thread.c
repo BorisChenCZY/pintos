@@ -572,7 +572,7 @@ init_thread(struct thread *t, const char *name, int priority) {
     t->stack = (uint8_t *) t + PGSIZE;
     t->priority = priority;
     t->origin_priority = t->priority;
-    for (int i = 0; i < 64; i++) t->priority_list[i] = 0; //init array
+    list_init(&t->donation_received);
     t->magic = THREAD_MAGIC;
 
     old_level = intr_disable();

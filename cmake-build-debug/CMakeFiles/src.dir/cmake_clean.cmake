@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/src.dir/threads/malloc.c.o"
   "CMakeFiles/src.dir/threads/palloc.c.o"
   "CMakeFiles/src.dir/threads/synch.c.o"
+  "CMakeFiles/src.dir/threads/thread-冲突-SHIQIZHANG.c.o"
   "CMakeFiles/src.dir/threads/thread.c.o"
   "CMakeFiles/src.dir/userprog/exception.c.o"
   "CMakeFiles/src.dir/userprog/gdt.c.o"

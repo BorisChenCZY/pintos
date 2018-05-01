@@ -26,6 +26,7 @@ struct lock {
     struct semaphore semaphore; /* Binary semaphore controlling access. */
     //[Boris]
     int donated;
+    struct list_elem reelem;
 };
 
 void lock_init(struct lock *);

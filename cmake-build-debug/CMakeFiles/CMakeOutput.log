@@ -1,6 +1,6 @@
-The system is: Darwin - 17.4.0 - x86_64
+The system is: Darwin - 17.0.0 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
 Build flags: 
 Id flags:  
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is AppleClang, found in "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is AppleClang, found in "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
 Build flags: 
 Id flags:  
 
@@ -23,36 +23,36 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is AppleClang, found in "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is AppleClang, found in "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cae3f/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cae3f.dir/build.make CMakeFiles/cmTC_cae3f.dir/build
-Building C object CMakeFiles/cmTC_cae3f.dir/testCCompiler.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_cae3f.dir/testCCompiler.c.o   -c "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_cae3f
-"/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_cae3f.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cae3f.dir/testCCompiler.c.o  -o cmTC_cae3f 
+Run Build Command:"/usr/bin/make" "cmTC_b0a3c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b0a3c.dir/build.make CMakeFiles/cmTC_b0a3c.dir/build
+Building C object CMakeFiles/cmTC_b0a3c.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_b0a3c.dir/testCCompiler.c.o   -c "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_b0a3c
+"/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_b0a3c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b0a3c.dir/testCCompiler.c.o  -o cmTC_b0a3c 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fc6f6/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fc6f6.dir/build.make CMakeFiles/cmTC_fc6f6.dir/build
-Building C object CMakeFiles/cmTC_fc6f6.dir/CMakeCCompilerABI.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_fc6f6.dir/CMakeCCompilerABI.c.o   -c "/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c"
-Linking C executable cmTC_fc6f6
-"/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_fc6f6.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_fc6f6.dir/CMakeCCompilerABI.c.o  -o cmTC_fc6f6 
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.4.0
+Run Build Command:"/usr/bin/make" "cmTC_e44a6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e44a6.dir/build.make CMakeFiles/cmTC_e44a6.dir/build
+Building C object CMakeFiles/cmTC_e44a6.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_e44a6.dir/CMakeCCompilerABI.c.o   -c "/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTC_e44a6
+"/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_e44a6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e44a6.dir/CMakeCCompilerABI.c.o  -o cmTC_e44a6 
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin17.0.0
 Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_fc6f6 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fc6f6.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-351.8
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_e44a6 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e44a6.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-302.3
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
 	/usr/lib
@@ -64,41 +64,41 @@ Framework search paths:
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fc6f6/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fc6f6.dir/build.make CMakeFiles/cmTC_fc6f6.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_fc6f6.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -o CMakeFiles/cmTC_fc6f6.dir/CMakeCCompilerABI.c.o   -c "/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c"]
-  ignore line: [Linking C executable cmTC_fc6f6]
-  ignore line: ["/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_fc6f6.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_fc6f6.dir/CMakeCCompilerABI.c.o  -o cmTC_fc6f6 ]
-  ignore line: [Apple LLVM version 9.1.0 (clang-902.0.39.1)]
-  ignore line: [Target: x86_64-apple-darwin17.4.0]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e44a6/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e44a6.dir/build.make CMakeFiles/cmTC_e44a6.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_e44a6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_e44a6.dir/CMakeCCompilerABI.c.o   -c "/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_e44a6]
+  ignore line: ["/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_e44a6.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e44a6.dir/CMakeCCompilerABI.c.o  -o cmTC_e44a6 ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.38)]
+  ignore line: [Target: x86_64-apple-darwin17.0.0]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_fc6f6 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_fc6f6.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_e44a6 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e44a6.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
     arg [-dynamic] ==> ignore
     arg [-arch] ==> ignore
     arg [x86_64] ==> ignore
     arg [-macosx_version_min] ==> ignore
     arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fc6f6] ==> ignore
+    arg [cmTC_e44a6] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_fc6f6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_e44a6.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/usr/lib;/usr/local/lib]
   Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
   remove lib [System]
-  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
   collapse library dir [/usr/lib] ==> [/usr/lib]
   collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
   collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
@@ -111,15 +111,15 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3af98/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3af98.dir/build.make CMakeFiles/cmTC_3af98.dir/build
-Building C object CMakeFiles/cmTC_3af98.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3af98.dir/feature_tests.c.o   -c "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_3af98
-"/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_3af98.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3af98.dir/feature_tests.c.o  -o cmTC_3af98 
+Run Build Command:"/usr/bin/make" "cmTC_a0450/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a0450.dir/build.make CMakeFiles/cmTC_a0450.dir/build
+Building C object CMakeFiles/cmTC_a0450.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_a0450.dir/feature_tests.c.o   -c "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_a0450
+"/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a0450.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a0450.dir/feature_tests.c.o  -o cmTC_a0450 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -129,15 +129,15 @@ Linking C executable cmTC_3af98
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2864f/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2864f.dir/build.make CMakeFiles/cmTC_2864f.dir/build
-Building C object CMakeFiles/cmTC_2864f.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_2864f.dir/feature_tests.c.o   -c "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_2864f
-"/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_2864f.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2864f.dir/feature_tests.c.o  -o cmTC_2864f 
+Run Build Command:"/usr/bin/make" "cmTC_9e57b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9e57b.dir/build.make CMakeFiles/cmTC_9e57b.dir/build
+Building C object CMakeFiles/cmTC_9e57b.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_9e57b.dir/feature_tests.c.o   -c "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_9e57b
+"/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_9e57b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9e57b.dir/feature_tests.c.o  -o cmTC_9e57b 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -147,15 +147,15 @@ Linking C executable cmTC_2864f
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_12607/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_12607.dir/build.make CMakeFiles/cmTC_12607.dir/build
-Building C object CMakeFiles/cmTC_12607.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_12607.dir/feature_tests.c.o   -c "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_12607
-"/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_12607.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_12607.dir/feature_tests.c.o  -o cmTC_12607 
+Run Build Command:"/usr/bin/make" "cmTC_3b4e7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3b4e7.dir/build.make CMakeFiles/cmTC_3b4e7.dir/build
+Building C object CMakeFiles/cmTC_3b4e7.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_3b4e7.dir/feature_tests.c.o   -c "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_3b4e7
+"/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_3b4e7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3b4e7.dir/feature_tests.c.o  -o cmTC_3b4e7 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -163,33 +163,33 @@ Linking C executable cmTC_12607
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cc2b9/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cc2b9.dir/build.make CMakeFiles/cmTC_cc2b9.dir/build
-Building CXX object CMakeFiles/cmTC_cc2b9.dir/testCXXCompiler.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_cc2b9.dir/testCXXCompiler.cxx.o -c "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
-Linking CXX executable cmTC_cc2b9
-"/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_cc2b9.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc2b9.dir/testCXXCompiler.cxx.o  -o cmTC_cc2b9 
+Run Build Command:"/usr/bin/make" "cmTC_e7822/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e7822.dir/build.make CMakeFiles/cmTC_e7822.dir/build
+Building CXX object CMakeFiles/cmTC_e7822.dir/testCXXCompiler.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_e7822.dir/testCXXCompiler.cxx.o -c "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_e7822
+"/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_e7822.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e7822.dir/testCXXCompiler.cxx.o  -o cmTC_e7822 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ca0f7/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ca0f7.dir/build.make CMakeFiles/cmTC_ca0f7.dir/build
-Building CXX object CMakeFiles/cmTC_ca0f7.dir/CMakeCXXCompilerABI.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_ca0f7.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp"
-Linking CXX executable cmTC_ca0f7
-"/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_ca0f7.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ca0f7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ca0f7 
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.4.0
+Run Build Command:"/usr/bin/make" "cmTC_29f23/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_29f23.dir/build.make CMakeFiles/cmTC_29f23.dir/build
+Building CXX object CMakeFiles/cmTC_29f23.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_29f23.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_29f23
+"/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_29f23.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_29f23.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_29f23 
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin17.0.0
 Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_ca0f7 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ca0f7.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-351.8
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_29f23 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_29f23.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-302.3
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
 	/usr/lib
@@ -201,42 +201,42 @@ Framework search paths:
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ca0f7/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ca0f7.dir/build.make CMakeFiles/cmTC_ca0f7.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_ca0f7.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -o CMakeFiles/cmTC_ca0f7.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp"]
-  ignore line: [Linking CXX executable cmTC_ca0f7]
-  ignore line: ["/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_ca0f7.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ca0f7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ca0f7 ]
-  ignore line: [Apple LLVM version 9.1.0 (clang-902.0.39.1)]
-  ignore line: [Target: x86_64-apple-darwin17.4.0]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_29f23/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_29f23.dir/build.make CMakeFiles/cmTC_29f23.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_29f23.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_29f23.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_29f23]
+  ignore line: ["/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_29f23.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_29f23.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_29f23 ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.38)]
+  ignore line: [Target: x86_64-apple-darwin17.0.0]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_ca0f7 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ca0f7.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_29f23 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_29f23.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
     arg [-dynamic] ==> ignore
     arg [-arch] ==> ignore
     arg [x86_64] ==> ignore
     arg [-macosx_version_min] ==> ignore
     arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ca0f7] ==> ignore
+    arg [cmTC_29f23] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_ca0f7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_29f23.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/usr/lib;/usr/local/lib]
   Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
   remove lib [System]
-  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
   collapse library dir [/usr/lib] ==> [/usr/lib]
   collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
   collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
@@ -249,15 +249,15 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_125cc/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_125cc.dir/build.make CMakeFiles/cmTC_125cc.dir/build
-Building CXX object CMakeFiles/cmTC_125cc.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_125cc.dir/feature_tests.cxx.o -c "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_125cc
-"/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_125cc.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_125cc.dir/feature_tests.cxx.o  -o cmTC_125cc 
+Run Build Command:"/usr/bin/make" "cmTC_6ec19/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6ec19.dir/build.make CMakeFiles/cmTC_6ec19.dir/build
+Building CXX object CMakeFiles/cmTC_6ec19.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_6ec19.dir/feature_tests.cxx.o -c "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_6ec19
+"/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_6ec19.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6ec19.dir/feature_tests.cxx.o  -o cmTC_6ec19 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -320,15 +320,15 @@ Linking CXX executable cmTC_125cc
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a77c9/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a77c9.dir/build.make CMakeFiles/cmTC_a77c9.dir/build
-Building CXX object CMakeFiles/cmTC_a77c9.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_a77c9.dir/feature_tests.cxx.o -c "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_a77c9
-"/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a77c9.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a77c9.dir/feature_tests.cxx.o  -o cmTC_a77c9 
+Run Build Command:"/usr/bin/make" "cmTC_c5d1b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c5d1b.dir/build.make CMakeFiles/cmTC_c5d1b.dir/build
+Building CXX object CMakeFiles/cmTC_c5d1b.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c5d1b.dir/feature_tests.cxx.o -c "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_c5d1b
+"/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_c5d1b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c5d1b.dir/feature_tests.cxx.o  -o cmTC_c5d1b 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -391,15 +391,15 @@ Linking CXX executable cmTC_a77c9
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_55c85/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_55c85.dir/build.make CMakeFiles/cmTC_55c85.dir/build
-Building CXX object CMakeFiles/cmTC_55c85.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_55c85.dir/feature_tests.cxx.o -c "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_55c85
-"/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_55c85.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_55c85.dir/feature_tests.cxx.o  -o cmTC_55c85 
+Run Build Command:"/usr/bin/make" "cmTC_54867/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_54867.dir/build.make CMakeFiles/cmTC_54867.dir/build
+Building CXX object CMakeFiles/cmTC_54867.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_54867.dir/feature_tests.cxx.o -c "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_54867
+"/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_54867.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_54867.dir/feature_tests.cxx.o  -o cmTC_54867 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -462,15 +462,15 @@ Linking CXX executable cmTC_55c85
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2ec14/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2ec14.dir/build.make CMakeFiles/cmTC_2ec14.dir/build
-Building CXX object CMakeFiles/cmTC_2ec14.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_2ec14.dir/feature_tests.cxx.o -c "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_2ec14
-"/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_2ec14.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2ec14.dir/feature_tests.cxx.o  -o cmTC_2ec14 
+Run Build Command:"/usr/bin/make" "cmTC_33180/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_33180.dir/build.make CMakeFiles/cmTC_33180.dir/build
+Building CXX object CMakeFiles/cmTC_33180.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_33180.dir/feature_tests.cxx.o -c "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_33180
+"/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_33180.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_33180.dir/feature_tests.cxx.o  -o cmTC_33180 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -199,7 +199,7 @@ lock_init(struct lock *lock) {
     ASSERT(lock != NULL);
 
     lock->holder = NULL;
-    lock->donated = 0;
+    lock->donated = -1;
     sema_init(&lock->semaphore, 1);
 }
 
@@ -221,17 +221,7 @@ lock_acquire(struct lock *lock) {
 //    printf("hello");
     if(lock->semaphore.value <= 0 && lock->holder != NULL){
         ASSERT(lock->holder!=NULL); //todo here may be bug
-//        printf("------");
-//        printf(lock->holder->status);
-//        printf("%d", THREAD_READY == lock->holder->status);
-//        printf("------\n");
-//        ASSERT(lock->holder->priority < thread_current()->priority); todo more situation to consider
-//        printf(lock->holder->priority);
         if(lock->holder->priority < thread_current()->priority) {
-//            printf("acquire");
-//            printf("\ndonates, %s -> %s\n", thread_name(), lock->holder->name);
-            lock->holder->priority_list[lock->holder->priority]++;
-//            printf("\nsaved priority: %d\n", lock->holder->priority_list[31]);
             lock->holder->priority = thread_current()->priority;
             lock->donated++;
         }
@@ -279,13 +269,13 @@ lock_release(struct lock *lock) {
     if(lock->donated) {
         for (int i = 63; i >= 0; i--) {
 //            printf("数字%d(%d)\n", thread_current()->priority_list[i], i);
-            if (thread_current()->priority_list[i]) {
-                thread_current()->priority = i;
-                thread_current()->priority_list[i]--;
+//            if (thread_current()->priority_list[i]) {
+//                thread_current()->priority = i;
+//                thread_current()->priority_list[i]--;
 //                printf("现在优先级是%d\n", thread_current()->priority_list[31]);
 //                printf("现在优先级是%d\n", i);
 //                break;
-            }
+//            }
         }
     }
 

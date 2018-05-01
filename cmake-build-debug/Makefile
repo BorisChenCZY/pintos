@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake"
+CMAKE_COMMAND = "/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
+RM = "/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/Boris/Nustore Files/pintos/src"
+CMAKE_SOURCE_DIR = "/Users/borischen/Nustore Files/pintos/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug"
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/Boris/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4203.549/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/borischen/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Boris/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/borischen/Nustore Files/pintos/src/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -1554,6 +1554,33 @@ threads/synch.c.s:
 	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/threads/synch.c.s
 .PHONY : threads/synch.c.s
 
+threads/thread-冲突-SHIQIZHANG.o: threads/thread-冲突-SHIQIZHANG.c.o
+
+.PHONY : threads/thread-冲突-SHIQIZHANG.o
+
+# target to build an object file
+threads/thread-冲突-SHIQIZHANG.c.o:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/threads/thread-冲突-SHIQIZHANG.c.o
+.PHONY : threads/thread-冲突-SHIQIZHANG.c.o
+
+threads/thread-冲突-SHIQIZHANG.i: threads/thread-冲突-SHIQIZHANG.c.i
+
+.PHONY : threads/thread-冲突-SHIQIZHANG.i
+
+# target to preprocess a source file
+threads/thread-冲突-SHIQIZHANG.c.i:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/threads/thread-冲突-SHIQIZHANG.c.i
+.PHONY : threads/thread-冲突-SHIQIZHANG.c.i
+
+threads/thread-冲突-SHIQIZHANG.s: threads/thread-冲突-SHIQIZHANG.c.s
+
+.PHONY : threads/thread-冲突-SHIQIZHANG.s
+
+# target to generate assembly for a file
+threads/thread-冲突-SHIQIZHANG.c.s:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/threads/thread-冲突-SHIQIZHANG.c.s
+.PHONY : threads/thread-冲突-SHIQIZHANG.c.s
+
 threads/thread.o: threads/thread.c.o
 
 .PHONY : threads/thread.o
@@ -1992,6 +2019,9 @@ help:
 	@echo "... threads/synch.o"
 	@echo "... threads/synch.i"
 	@echo "... threads/synch.s"
+	@echo "... threads/thread-冲突-SHIQIZHANG.o"
+	@echo "... threads/thread-冲突-SHIQIZHANG.i"
+	@echo "... threads/thread-冲突-SHIQIZHANG.s"
 	@echo "... threads/thread.o"
 	@echo "... threads/thread.i"
 	@echo "... threads/thread.s"
