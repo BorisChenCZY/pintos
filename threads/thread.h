@@ -115,6 +115,7 @@ struct thread
     int origin_priority;
     struct list locks;
     struct lock *waiting_lock;
+    struct semaphore *waiting_semaphone;
   };
 
 /* If false (default), use round-robin scheduler.

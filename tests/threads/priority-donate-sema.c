@@ -39,7 +39,9 @@ test_priority_donate_sema(void) {
     sema_init(&ls.sema, 0);
     thread_create("low", PRI_DEFAULT + 1, l_thread_func, &ls);
     thread_create("med", PRI_DEFAULT + 3, m_thread_func, &ls);
+//    msg("created high");
     thread_create("high", PRI_DEFAULT + 5, h_thread_func, &ls);
+//    msg("going to lift up sema");
     sema_up(&ls.sema);
     msg("Main thread finished.");
 }
@@ -60,6 +62,7 @@ static void
 m_thread_func(void *ls_) {
     struct lock_and_sema *ls = ls_;
 
+//    msg("Thread M has priority %d", thread_get_priority());
     sema_down(&ls->sema);
     msg("Thread M finished.");
 }

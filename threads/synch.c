@@ -69,6 +69,8 @@ sema_down(struct semaphore *sema) {
     old_level = intr_disable();
     while (sema->value == 0) {
         // check priority
+        thread_current()->waiting_semaphone = sema;
+//        printf("waited");
         list_insert_ordered(&sema->waiters, &thread_current()->elem, ascending_on_priority_and_lexicographical, NULL);
         thread_block();
     }
@@ -113,6 +115,8 @@ sema_up(struct semaphore *sema) {
     old_level = intr_disable();
 
     if (!list_empty(&sema->waiters)) {
+        list_entry(list_front(&sema->waiters),
+                   struct thread, elem)->waiting_semaphone=NULL;
         thread_unblock(list_entry(list_pop_front(&sema->waiters),
                                   struct thread, elem));
     }
@@ -187,24 +191,7 @@ lock_init(struct lock *lock) {
    interrupt handler.  This function may be called with
    interrupts disabled, but interrupts will be turned back on if
    we need to sleep. */
-void donate_by_chain(struct lock *lock, int priority) {
-    if(lock == NULL) return;
-    enum intr_level before = intr_disable();
-    struct lock *cur = lock;
-//    while (cur->holder->waiting_lock != NULL) {
-//        printf("cur is %s\n", cur->holder->name);
-//        cur->holder->priority = priority;
-//        printf("%s is donating %d to %s\n", thread_name(), priority, cur->holder->name);
-//        printf("%s has %d\n", cur->holder->name, cur->holder->priority);
-//        cur = cur->holder->waiting_lock;
-//        printf("%s has %d\n", cur->holder->name, cur->holder->priority);
-//        printf("%d\n", cur != NULL);
-//    }
-//    printf("%s passed\n", cur->holder->name);
-    cur->holder->priority = priority;
-    donate_by_chain(cur->holder->waiting_lock, priority);
-    intr_set_level(before);
-}
+
 
 void
 lock_acquire(struct lock *lock) {
@@ -219,7 +206,7 @@ lock_acquire(struct lock *lock) {
         ASSERT(lock->holder != NULL); //todo here may be bug
         if (lock->holder->priority < thread_current()->priority) {
             thread_current()->waiting_lock = lock;
-            lock->holder->priority = thread_current()->priority;
+//            lock->holder->priority = thread_current()->priority;
             donate_by_chain(thread_current()->waiting_lock, thread_get_priority());
             lock->donated = thread_get_priority();
         }

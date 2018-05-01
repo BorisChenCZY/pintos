@@ -723,3 +723,27 @@ show_ready_list() {
     printf("end\n");
     intr_set_level(before);
 }
+
+void donate_by_chain(struct lock *lock, int priority) {
+    if(lock == NULL) return;
+//    printf("hello");
+    enum intr_level before = intr_disable();
+    struct lock *cur = lock;
+    if(cur->holder->priority < priority) {
+        cur->holder->priority = priority;
+//        printf("%s is donating %d to %s\n", thread_name(), priority, cur->holder->name);
+//        printf("%s has %d\n", cur->holder->name, cur->holder->priority);
+        //改变排序 有三个地方需要改变，
+        //一个是sema的waitlist
+        cur->donated = priority;
+        list_remove(&cur->holder->elem);
+        if(cur->holder->status == THREAD_BLOCKED)
+            list_insert_ordered(&cur->holder->waiting_semaphone->waiters, &cur->holder->elem, ascending_on_priority_and_lexicographical, NULL);
+        else
+            list_insert_ordered(&ready_list, &cur->holder->elem, ascending_on_priority_and_lexicographical, NULL);
+//        while(1);
+//        printf("the first waiter is %s\n", elem_to_thread(list_begin(&cur->holder->waiting_semaphone->waiters))->name);
+        donate_by_chain(cur->holder->waiting_lock, priority);
+    }
+    intr_set_level(before);
+}
