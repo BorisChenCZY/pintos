@@ -12,7 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a1ce97-b90a-435a-abf9-5ef328e0355f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/threads/synch.c" beforeDir="false" afterPath="$PROJECT_DIR$/threads/synch.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threads/thread.c" beforeDir="false" afterPath="$PROJECT_DIR$/threads/thread.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="synch.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="synch.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threads/synch.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="258" column="8" selection-start-line="258" selection-start-column="8" selection-end-line="258" selection-end-column="8" />
+            <state relative-caret-position="442">
+              <caret line="265" column="19" selection-start-line="265" selection-start-column="19" selection-end-line="265" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="priority-donate-lower.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/threads/priority-donate-lower.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -101,20 +111,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interrupt.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threads/interrupt.c">
+      <file leaf-file-name="priority-change.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/threads/priority-change.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="375" column="35" selection-start-line="375" selection-start-column="35" selection-end-line="375" selection-end-column="35" />
+            <state relative-caret-position="390">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thread.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="thread.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/threads/thread.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="574" column="24" selection-start-line="574" selection-start-column="24" selection-end-line="574" selection-end-column="24" />
+            <state relative-caret-position="320">
+              <caret line="453" column="103" selection-start-line="453" selection-start-column="103" selection-end-line="453" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -141,8 +151,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lock_acqui</find>
-      <find>set_prit</find>
       <find>lock_acq</find>
       <find>unblo</find>
       <find>20</find>
@@ -167,10 +175,12 @@
       <find>ready_list</find>
       <find>release</find>
       <find>init_thread</find>
-      <find>wait_for_wake</find>
       <find>lock</find>
       <find>lock_re</find>
       <find>msg</find>
+      <find>set_priority</find>
+      <find>thread_set_priority</find>
+      <find>wait_for_wake</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,12 +200,12 @@
         <option value="$PROJECT_DIR$/threads/interrupt.c" />
         <option value="$PROJECT_DIR$/threads/interrupt.h" />
         <option value="$PROJECT_DIR$/tests/threads/priority-donate-multiple.c" />
-        <option value="$PROJECT_DIR$/threads/thread.c" />
         <option value="$PROJECT_DIR$/threads/synch.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/tests/threads/priority-sema.c" />
         <option value="$PROJECT_DIR$/threads/thread.h" />
         <option value="$PROJECT_DIR$/threads/synch.c" />
+        <option value="$PROJECT_DIR$/threads/thread.c" />
       </list>
     </option>
   </component>
@@ -335,7 +345,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115686000" />
+    <option name="totallyTimeSpent" value="117577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,8 +367,8 @@
       <window_info anchor="bottom" id="File Transfer" order="0" weight="0.32708332" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32916668" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.79813665" visible="true" weight="0.1790416" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32916668" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.79813665" visible="true" weight="0.1790416" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3283582" />
       <window_info id="Structure" order="2" sideWeight="0.20186335" side_tool="true" visible="true" weight="0.1790416" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
@@ -396,7 +406,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/threads/thread.c</url>
-          <line>126</line>
+          <line>128</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
@@ -404,13 +414,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/kernel/list.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="73" column="63" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/devices/timer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -621,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/threads/priority-change.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threads/thread-冲突-SHIQIZHANG.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -673,38 +669,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threads/thread.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="574" column="24" selection-start-line="574" selection-start-column="24" selection-end-line="574" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devices/timer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="181" column="9" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/kernel/list.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1287">
           <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/threads/priority-donate-one.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/kernel/list.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -717,8 +685,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/threads/synch.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="258" column="8" selection-start-line="258" selection-start-column="8" selection-end-line="258" selection-end-column="8" />
+        <state relative-caret-position="442">
+          <caret line="265" column="19" selection-start-line="265" selection-start-column="19" selection-end-line="265" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/kernel/list.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/threads/priority-donate-one.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/threads/priority-change.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devices/timer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="181" column="9" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/threads/priority-donate-lower.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/thread.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="453" column="103" selection-start-line="453" selection-start-column="103" selection-end-line="453" selection-end-column="103" />
         </state>
       </provider>
     </entry>

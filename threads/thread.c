@@ -39,7 +39,6 @@ inline struct thread *first_of_ready_list() {
 };
 
 
-
 /* List of processes in sleep. */
 static struct list sleep_list;
 
@@ -88,10 +87,14 @@ static struct thread *next_thread_to_run(void);
 static void init_thread(struct thread *, const char *name, int priority);
 
 static bool is_thread(struct thread *)UNUSED;
-                                      static void *alloc_frame(struct thread *, size_t size);
-                                      static void schedule(void);
-                                      void thread_schedule_tail(struct thread *prev);
-                                      static tid_t allocate_tid(void);
+
+static void *alloc_frame(struct thread *, size_t size);
+
+static void schedule(void);
+
+void thread_schedule_tail(struct thread *prev);
+
+static tid_t allocate_tid(void);
 
 /* Initializes the threading system by transforming the code
    that's currently running into a thread.  This can't work in
@@ -106,9 +109,8 @@ static bool is_thread(struct thread *)UNUSED;
 
    It is not safe to call thread_current() until this function
    finishes. */
-        void
-        thread_init(void)
-{
+void
+thread_init(void) {
     ASSERT(intr_get_level() == INTR_OFF);
 
     lock_init(&tid_lock);
@@ -448,13 +450,11 @@ thread_foreach(thread_action_func *func, void *aux) {
 /* Sets the current thread's priority to NEW_PRIORITY. */
 void
 thread_set_priority(int new_priority) {
-    thread_current()->priority = new_priority;
+    enum intr_level before = intr_disable();
+    if(thread_get_priority() == thread_current()->origin_priority || new_priority > thread_get_priority())
+        thread_current()->priority = new_priority;
     thread_current()->origin_priority = new_priority;
-    //[Boris] todo check if it's necessary to preempt.
-    // if true, pre.
-    // if false, pass.
-
-//    printf("\n%s(%d) -> %s(%d)\n", thread_current()->name, thread_get_priority(), first_of_ready_list()->name, first_of_ready_list()->priority);
+    intr_set_level(before);
     check_preempt();
 }
 
@@ -566,7 +566,7 @@ init_thread(struct thread *t, const char *name, int priority) {
     ASSERT(PRI_MIN <= priority && priority <= PRI_MAX);
     ASSERT(name != NULL);
 
-    memset (t, 0, sizeof *t);
+    memset(t, 0, sizeof *t);
     t->status = THREAD_BLOCKED;
     strlcpy(t->name, name, sizeof t->name);
     t->stack = (uint8_t *) t + PGSIZE;
