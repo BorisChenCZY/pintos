@@ -291,6 +291,9 @@ lock_held_by_current_thread(const struct lock *lock) {
 struct semaphore_elem {
     struct list_elem elem;              /* List element. */
     struct semaphore semaphore;         /* This semaphore. */
+
+    //[Boris]
+    int priority;
 };
 
 /* Initializes condition variable COND.  A condition variable
@@ -323,6 +326,16 @@ cond_init(struct condition *cond) {
    interrupt handler.  This function may be called with
    interrupts disabled, but interrupts will be turned back on if
    we need to sleep. */
+static bool
+ascending_on_priority_of_semaphore (const struct list_elem *lhs, const struct list_elem *rhs, void *aux UNUSED)
+{
+
+    struct semaphore_elem *list_elem = list_entry (lhs, struct semaphore_elem, elem);
+    struct semaphore_elem *elem = list_entry (rhs, struct semaphore_elem, elem);
+
+    return (list_elem->priority > elem->priority);
+}
+
 void
 cond_wait(struct condition *cond, struct lock *lock) {
     struct semaphore_elem waiter;
@@ -333,7 +346,10 @@ cond_wait(struct condition *cond, struct lock *lock) {
     ASSERT(lock_held_by_current_thread(lock));
 
     sema_init(&waiter.semaphore, 0);
-    list_push_back(&cond->waiters, &waiter.elem);
+//    list_push_back(&cond->waiters, &waiter.elem);
+    waiter.priority = thread_get_priority();
+    list_insert_ordered(&cond->waiters, &waiter.elem, ascending_on_priority_of_semaphore, NULL);
+//    printf("\nfirst elem of waiting list is %s\n", list_begin(&cond-waiter))
     lock_release(lock);
     sema_down(&waiter.semaphore);
     lock_acquire(lock);

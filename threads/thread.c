@@ -737,6 +737,7 @@ void donate_by_chain(struct lock *lock, int priority) {
         //一个是sema的waitlist
         cur->donated = priority;
         list_remove(&cur->holder->elem);
+//        list_insert_ordered(&cond->waiters, &waiter.elem, ascending_on_priority_and_lexicographical, NULL);
         if(cur->holder->status == THREAD_BLOCKED)
             list_insert_ordered(&cur->holder->waiting_semaphone->waiters, &cur->holder->elem, ascending_on_priority_and_lexicographical, NULL);
         else
