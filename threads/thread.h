@@ -116,6 +116,8 @@ struct thread
     struct list locks;
     struct lock *waiting_lock;
     struct semaphore *waiting_semaphone;
+
+    int time_slice;
   };
 
 /* If false (default), use round-robin scheduler.

@@ -181,10 +181,12 @@ thread_tick(void) {
 //    }
 
     /* Enforce preemption. */
-    if (++thread_ticks >= t->origin_priority % 7 + 20) {
+    if (++thread_ticks >= t->time_slice) {
 //        printf("HRER");
-        if (strcmp(t->name, "main") != 0)
+        if (strcmp(t->name, "main") != 0) {
             t->priority = max(t->priority - 3, 0);
+            t->origin_priority = max(t->origin_priority - 3, 0);
+        }
         intr_yield_on_return();
     }
 
@@ -572,6 +574,7 @@ init_thread(struct thread *t, const char *name, int priority) {
     t->stack = (uint8_t *) t + PGSIZE;
     t->priority = priority;
     t->origin_priority = t->priority;
+    t->time_slice = t->origin_priority % 7 + 20;
     list_init(&t->locks);
     t->magic = THREAD_MAGIC;
 
